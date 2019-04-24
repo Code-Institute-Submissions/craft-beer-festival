@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>Craft Beer Festival</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white"> 
+		
+			<!-- LOGO -->
+			<a class="navbar-brand mr-1" href="index.html">
+				<img src="images/logo.png" height="40" alt="BF logo" title="BF logo">
+			</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarCollapse"
+				aria-controls="navbarCollapse"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<!-- NAV BAR LINKS -->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav ml-auto text-uppercase">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.google.com/maps/place/Marlay+Park/@53.2732882,-6.2710537,17z/data=!3m1!4b1!4m5!3m4!1s0x48670bcc2f44739d:0x7aba0b0e84d6b979!8m2!3d53.273285!4d-6.268865"target=_"blank">Where?</a>
+					<!--</li>-->
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+				<!-- REQUEST QUOTE BUTTON -->
+				<button class="btn btn-success text-uppercase ml-md-3" data-toggle="modal" data-target="#winticketModal">Win Ticket</a>
+			</div>
+		</nav> 
+		<!-- HEADER -->
+		<header class="text-center container-fluid m-1">
+		    <div class="row justify-content-center">
+		        <div class="col-10">
+		            <h1>About Beer Festival</h1>
+		        </div>
+		    </div>
+		</header>
+		
+		<!-- MAIN CONTENT OF ABOUT PAGE -->
+		<main>
+			
+			<section class="container-fluid text-center ">
+			    <div class="row justify-content-center align-items-center">
+			        <div class="col-sm-12 col-md-6 col-lg-3">
+	                    <figure class="about-img about-img-1" title="Pouring beer"></figure>
+			        </div>
+			        <div class="p-emphasis col-sm-12 col-md-6 col-lg-6 mt-4">
+				        <h3>We Are Back!!!.</h3>
+				        <p>Irish Craft Beer Festival is back, but… a little different than before! International stars mixed with local heroes bringing 
+				         Festival-only-specials to Marley Park for the first festival of the season.</p>
+				        <p>The Festival is open from 5pm-10.30pm Friday, and from 2pm-10.30pm Saturday.</p> 
+				        <p>Last entry 9pm each night!</p>
+				        
+			        </div>
+			    </div>
+			    </main>
+    <!-- The video -->
+<div class="fullscreen bg">
+<video autoplay muted loop id="myVideo">
+  <source src="video/man.mp4" type="video/mp4">
+    <source src="video/Hops.mp4" type="video/mp4">
+</video>
+</div>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <div class="header">
+  <h1 class="header"><strong>Join</strong><small> Us For Biggest Craft Beer Festival. Scroll Down For More Info.</small></h1>
+    <!-- Use a button to pause/play the video with JavaScript -->
+  </div>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="winticketModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Submit your presence and Win 2 Tickets!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+	    
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
