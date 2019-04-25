@@ -12,10 +12,7 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white"> 
 		
-			<!-- LOGO -->
-			<a class="navbar-brand mr-1" href="index.html">
-				<img src="images/logo.png" height="40" alt="BF logo" title="BF logo">
-			</a>
+			
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -60,15 +57,36 @@
 	</article>
 		
     <!-- The video -->
+    <div class="video-wrapper d-none d-lg-block">
 <div class="fullscreen bg">
 <video autoplay muted loop id="myVideo">
   <source src="video/man.mp4" type="video/mp4">
     <source src="video/Hops.mp4" type="video/mp4">
 </video>
 </div>
+</div>
+<!--END video element-->
+
+<!-- Static image replaces video on mobile devices, to save data usage -->
+<div class="container-fluid p-0 m-0 d-lg-none">
+	    	<div class="row p-0 m-0">
+	    		<div class="col-12 p-0 m-0">
+	    			<figure class="beer-mug-home" title="Beer festival Marley Park"></figure>
+	    		</div>
+	    		<div class="container-fluid beer.mug-overlay">
+		            <div class="row">
+		                <div class="col-12 text-mobile text-black">
+		                    <h1>Beer fest 22 June. Marley Park</h1>
+		        			<h3 class="fontchange-sm">Nature Has Arrived</h3>
+		        			<p>Enjoy your craft beer on a meadow</p>
+		                </div>
+		            </div>
+		        </div> <!--END overlay-->
+	    	</div>
+	    </div><!--END image element -->
 
 <!-- Optional: some overlay text to describe the video -->
-<div class="content">
+<div class="content d-none d-sm-block">
   <div class="header">
   <h1 class="header"><strong>Join</strong><small> Us For Biggest Craft Beer Festival. Scroll Down For More Info.</small></h1>
     <!-- Use a button to pause/play the video with JavaScript -->

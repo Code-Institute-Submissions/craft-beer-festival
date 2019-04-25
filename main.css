@@ -1,8 +1,11 @@
 
 .bg-white {
     background-color: #f7e3543d!important;
-    
 }
+ /*NAVBAR*/
+    .navbar-toggler{
+     margin-left: 290px!important;
+     }
 /* video*/
 #myVideo {
   position: fixed;
@@ -25,7 +28,20 @@
   text-align: center;
   z-index: -1;
 }
-
+.beer-mug-home{
+    background-image: url("https://i.imgur.com/m4qwnK6.jpg");
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+    
+    background-position: center 25%;
+    z-index: 1;
+}
+.text-mobile{
+  
+}
 .about-img{
     background-image: url("images/pouringbeer.jpg");
     background-position: center 35%;
