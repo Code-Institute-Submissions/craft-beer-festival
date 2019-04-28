@@ -6,20 +6,27 @@
     .navbar-toggler{
      margin-left: 290px!important;
      }
+     
+
+
 /* video*/
 #myVideo {
-  position: fixed;
+  position: relative;
   right: 0;
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
   z-index: -1;
-  
 }
+ .fixed-top {
+    position: relative;
+    
+} 
+
 
 /* Add some content at the bottom of the video/page */
 .content {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
@@ -31,7 +38,7 @@
 .beer-mug-home{
     background-image: url("https://i.imgur.com/W9KfQc2.jpg");
     position: relative;
-    height: 100vh;
+    height: 50vh;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
             background-size: cover;
