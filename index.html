@@ -1,294 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css" type="text/css" />
-    <title>Craft Beer Festival</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
-		<button
-			class="navbar-toggler"
-			type="button"
-			data-toggle="collapse"
-			data-target="#navbarCollapse"
-			aria-controls="navbarCollapse"
-			aria-expanded="false"
-			aria-label="Toggle navigation"
-		>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css" type="text/css" />
+        <title>Craft Beer Festival</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-			<!-- NAV BAR LINKS -->
-		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="navbar-nav ml-auto text-uppercase">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="about.html">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="gallery.html">Gallery</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="https://www.google.com/maps/place/Marlay+Park/@53.2732882,-6.2710537,17z/data=!3m1!4b1!4m5!3m4!1s0x48670bcc2f44739d:0x7aba0b0e84d6b979!8m2!3d53.273285!4d-6.268865"target=_"blank">Where?</a>
+            <!-- NAV BAR LINKS -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.google.com/maps/place/Marlay+Park/@53.2732882,-6.2710537,17z/data=!3m1!4b1!4m5!3m4!1s0x48670bcc2f44739d:0x7aba0b0e84d6b979!8m2!3d53.273285!4d-6.268865" target=_ "blank">Where?</a>
 
-				<li class="nav-item">
-					<a class="nav-link" href="price.html">Price</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="contact.html">Contact</a>
-				</li>
-			</ul>
-			<!-- REQUEST WIN BUTTON -->
-			<button class="btn btn-success text-uppercase ml-md-3" data-toggle="modal" data-target="#winticketModal">Win Ticket</button>
-		</div>
-	</nav>
-	<main>
-<!-- The video -->
-		<div class="video-wrapper d-none d-lg-block">
-			<div class="fullscreen bg">
-				<video autoplay muted loop id="myVideo">
+                        <li class="nav-item">
+                            <a class="nav-link" href="price.html">Price</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                </ul>
+                <!-- REQUEST WIN BUTTON -->
+                <button class="btn btn-success text-uppercase ml-md-3" data-toggle="modal" data-target="#winticketModal">Win Ticket</button>
+            </div>
+        </nav>
+        <main>
+            <!-- The video -->
+            <div class="video-wrapper d-none d-lg-block">
+                <div class="fullscreen bg">
+                    <video autoplay muted loop id="myVideo">
 					<source src="video/man.mp4" type="video/mp4">
 				</video>
-			</div>
+                </div>
 
-			<div class="content d-none d-lg-block">
-				<div class="header">
-					<h1 class="header"><strong>Join</strong><small> Us For Biggest Craft Beer Festival. Scroll Down For More Info.</small></h1>
-					<!-- Use a button to pause/play the video with JavaScript -->
-				</div>
-				<button id="myBtn" onclick="myFunction()">Pause</button>
-			</div>
+                <div class="content d-none d-lg-block">
+                    <div class="header">
+                        <h1 class="header"><strong>Join</strong><small> Us For Biggest Craft Beer Festival. Scroll Down For More Info.</small></h1>
+                        <!-- Use a button to pause/play the video with JavaScript -->
+                    </div>
+                    <button id="myBtn" onclick="myFunction()">Pause</button>
+                </div>
 
-			<div class="sound-wrapper d-none d-lg-block">
-				<div class="sound-bg">
-					<audio autoplay loop src="sound/nature-sound.mp3" controls>
+                <div class="sound-wrapper d-none d-lg-block">
+                    <div class="sound-bg">
+                        <audio autoplay loop src="sound/nature-sound.mp3" controls>
 						<p>If you are reading this, it is because your browser does not support the audio element.</p>
 					</audio>
-				</div>
-			</div>
-		</div>
-				
-		
-<!--END video element-->
-		
+                    </div>
+                </div>
+            </div>
 
-<!-- Static image replaces video on mobile devices, to save data usage -->
-		<div class="container-fluid p-0 m-0 d-lg-none">
-			<div class="row p-0 m-0">
-				<div class="col-12 p-0 m-0">
-					<figure class="beer-mug-home" title="Beer festival Marley Park"></figure>
-				</div>
-				<div class="container-fluid beer.mug">
-					<div class="row">
-						<div class="col-12 text-mobile text-black">
-							<h1>Beer fest 22 June. Marley Park</h1>
-							<h3 class="fontchange-sm">Nature Has Arrived</h3>
-							<p>Enjoy your craft beer on a meadow</p>
-						</div>
-					</div>
-				</div> <!--END overlay-->
-			</div>
-		</div><!--END image element -->
 
-	<!-- Optional: some overlay text to describe the video -->
-	
-	<!--Section-->
-	<div class="section-container">
-  <div class="row">
-      <h1 class="section-header">
-    YOUR FAVOURITE IRISH CRAFT BEER FESTIVAL IS BACK BUT..... A LITTLE BIT DIFFERENT THAN BEFORE INTERNATIONAL STARS MIXED 
-    WITH LOCAL HEROES BRINGING FESTIVAL ONLY SPECIALS TO DÚN LAOGHAIRE HARBOUR FOR A THE FIRST FESTIVAL OF THE SEASON 2019
+            <!--END video element-->
 
-                            22nd & 23th June 2019 @ MARLAY PARK
 
-                        Festival is open from 2pm-11pm on Saturday and from 2pm-10.30pm on Sunday! 
+            <!-- Static image replaces video on mobile devices, to save data usage -->
+            <div class="container-fluid p-0 m-0 d-lg-none">
+                <div class="row p-0 m-0">
+                    <div class="col-12 p-0 m-0">
+                        <figure class="beer-mug-home" title="Beer festival Marley Park"></figure>
+                    </div>
+                    <div class="container-fluid beer.mug">
+                        <div class="row">
+                            <div class="col-12 text-mobile text-black">
+                                <h1>Beer fest 22 June. Marley Park</h1>
+                                <h3 class="fontchange-sm">Nature Has Arrived</h3>
+                                <p>Enjoy your craft beer on a meadow</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END overlay-->
+                </div>
+            </div>
+            <!--END image element -->
 
-                                        Last entry 9pm each night! 
-      </h1>
-    <div class="col-sm">
-        </div>
-<!--Article-->
+            <!-- Optional: some overlay text to describe the video -->
 
-<div class="container">
-    <h1 class="header"><strong>Find You Own Reason to Join Our Fantastic Venue</h1></strong>
-  <div class="row">
-      <div class="col-sm">
-        <h3>Let's Enjoy Nature</h3>
-      <p>Getting outside and enjoying the great outdoors is something most everyone loves. It simply makes people happy.
-      Who doesn’t love breathing clean, fresh air, hearing the serene sounds of nature, and walking on a soft trail padded with trees? 
-      And who doesn’t need a break from technology – smartphones, computers, tablets, television, movies, internet, video games, and so on?
-      Spending some time in nature can feel like a relief after staring at a screen or being 
-      stuck inside all day or long week. There are plenty of ways to enjoy nature: you can exercise outside, 
-      document what you see, and even just commit yourself to really experiencing what’s happening. Bring a blanket,
-      deck chair, umbrella and enjoy freedom with your favorite craft beer.Does it sound good? So don't think twice</p>
-    </div>
-    <div class="col-sm">
-      <h3>Biggest Selection Of Craft Beers</h3>
-      <p>You will find 40 out of 72 Irish Craft Beer Breweries.
-      Including Top 10 Craft Beer Breweries In Ireland!!!
-     <ul>
-          
-        <li><a href="https://rascalsbrewing.com/" target="_blank">Rascals Brewing Company,Co. Dublin</a></li>
-        
-        <li><a href="http://www.yardsmanlager.com/" target="_blank">Hercules Brewing Company,Co. Antrim</a></li> 
-          
-        <li><a href="http://www.yardsmanlager.com/" target="_blank">Walled City Brewey,Co. Derry</a></li>  
-          
-        <li><a href="http://franciscanwellbrewery.com/en/check?returnUrl=/en/index" target="_blank">Franciscan Well Brewery and Brewpub,Co. Cork</a></li>  
-        
-        <li><a href="http://www.metalmanbrewing.com/" target="_blank">Metalman Brewery Company,Co. Waterford</a></li> 
-        
-        <li><a href="https://treatycitybrewery.ie/" target="_blank">Treaty City Brewing Company,Co. Limerick</a></li>
-        
-        <li><a href="http://www.beoir.org/index.php/craft-beer-directories/breweries?pid=675&sid=940:Dingle-Brewing-Company" target="_blank">Dingle Brewing Company , Co. Kerry</a></li>
-        
-        <li><a href="http://troublebrewing.ie/" target="_blank">Trouble Brewing , Co. Kildare</a></li>
-        
-        <li><a href="http://www.galwaybaybrewery.com/" target="_blank">Galway Bay Brewery, , Co. Galway</a></li>
-        
-        <li><a href="https://thewhitehag.com/" target="_blank">The White Hag Brewing Company , Co. Sligo</a></li>  
-     </ul>
-     
-    </div>
-    <div class="col-sm">
-      <h3>The Food Area</h3>
-      <p>
-          Feel free to arrive with an appetite as not everything worth tasting here is liquid. 
-          Expect delicious bites from artisan producers all along the coast are making some of Europe’s best cheeses,
-          craft brews and chocolates, with primary ingredients sourced from farmers and foragers who are 
-          rooted in traditions of the west.The festival celebrates the art of cooking with fire & smoke 
-          bringing chefs cooks and pitmasters from Ireland, UK and further along with over 20,000 
-          visitors to smell, taste, discover and learn about all kinds of barbecuing, grilling, smoking, 
-          vegetables, meats, delicacies and drinks.Over 20 restaurants join for the weekend, with the only 
-          rule being they must cook with live fire using natural charcoal and wood only; no gas or electricity.
-          
-      </p>
-    </div>
-  </div>
-</div>
+            <!--Section-->
+            <div class="section-container">
+                <div class="row">
+                    <h1 class="section-header">
+                        YOUR FAVOURITE IRISH CRAFT BEER FESTIVAL IS BACK BUT..... A LITTLE BIT DIFFERENT THAN BEFORE INTERNATIONAL STARS MIXED WITH LOCAL HEROES BRINGING FESTIVAL ONLY SPECIALS TO DÚN LAOGHAIRE HARBOUR FOR A THE FIRST FESTIVAL OF THE SEASON 2019 22nd & 23th June
+                        2019 @ MARLAY PARK Festival is open from 2pm-11pm on Saturday and from 2pm-10.30pm on Sunday! Last entry 9pm each night!
+                    </h1>
+                    <div class="col-sm">
+                    </div>
+                    <!--Article-->
 
-<!-- Video section-->
+                    <div class="container">
+                        <h1 class="header"><strong>Find You Own Reason to Join Our Fantastic Venue</h1></strong>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <h3>Let's Enjoy Nature</h3>
+                                    <p>Getting outside and enjoying the great outdoors is something most everyone loves. It simply makes people happy. Who doesn’t love breathing clean, fresh air, hearing the serene sounds of nature, and walking on a soft
+                                        trail padded with trees? And who doesn’t need a break from technology – smartphones, computers, tablets, television, movies, internet, video games, and so on? Spending some time in nature can feel like a relief
+                                        after staring at a screen or being stuck inside all day or long week. There are plenty of ways to enjoy nature: you can exercise outside, document what you see, and even just commit yourself to really experiencing
+                                        what’s happening. Bring a blanket, deck chair, umbrella and enjoy freedom with your favorite craft beer.Does it sound good? So don't think twice</p>
+                                </div>
+                                <div class="col-sm">
+                                    <h3>Biggest Selection Of Craft Beers</h3>
+                                    <p>You will find 40 out of 72 Irish Craft Beer Breweries. Including Top 10 Craft Beer Breweries In Ireland!!!
+                                        <ul>
 
-<div class="container">
-  <div class="row">
-    <div class="col">Column1</div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/EketHuXJ3_c" 
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+                                            <li><a href="https://rascalsbrewing.com/" target="_blank">Rascals Brewing Company,Co. Dublin</a></li>
+
+                                            <li><a href="http://www.yardsmanlager.com/" target="_blank">Hercules Brewing Company,Co. Antrim</a></li>
+
+                                            <li><a href="http://www.yardsmanlager.com/" target="_blank">Walled City Brewey,Co. Derry</a></li>
+
+                                            <li><a href="http://franciscanwellbrewery.com/en/check?returnUrl=/en/index" target="_blank">Franciscan Well Brewery and Brewpub,Co. Cork</a></li>
+
+                                            <li><a href="http://www.metalmanbrewing.com/" target="_blank">Metalman Brewery Company,Co. Waterford</a></li>
+
+                                            <li><a href="https://treatycitybrewery.ie/" target="_blank">Treaty City Brewing Company,Co. Limerick</a></li>
+
+                                            <li><a href="http://www.beoir.org/index.php/craft-beer-directories/breweries?pid=675&sid=940:Dingle-Brewing-Company" target="_blank">Dingle Brewing Company , Co. Kerry</a></li>
+
+                                            <li><a href="http://troublebrewing.ie/" target="_blank">Trouble Brewing , Co. Kildare</a></li>
+
+                                            <li><a href="http://www.galwaybaybrewery.com/" target="_blank">Galway Bay Brewery, , Co. Galway</a></li>
+
+                                            <li><a href="https://thewhitehag.com/" target="_blank">The White Hag Brewing Company , Co. Sligo</a></li>
+                                        </ul>
+
+                                </div>
+                                <div class="col-sm">
+                                    <h3>The Food Area</h3>
+                                    <p>
+                                        Feel free to arrive with an appetite as not everything worth tasting here is liquid. Expect delicious bites from artisan producers all along the coast are making some of Europe’s best cheeses, craft brews and chocolates, with primary ingredients sourced
+                                        from farmers and foragers who are rooted in traditions of the west.The festival celebrates the art of cooking with fire & smoke bringing chefs cooks and pitmasters from Ireland, UK and further along with over 20,000
+                                        visitors to smell, taste, discover and learn about all kinds of barbecuing, grilling, smoking, vegetables, meats, delicacies and drinks.Over 20 restaurants join for the weekend, with the only rule being they must
+                                        cook with live fire using natural charcoal and wood only; no gas or electricity.
+
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
+
+                    <!-- Video section-->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">Column1</div>
+                            <iframe width="460" height="300" src="https://www.youtube.com/embed/EketHuXJ3_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
     picture-in-picture" allowfullscreen></iframe>
-    <div class="col">Column2</div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/8p1J7ZY-CyY" 
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+                            <div class="col">Column2</div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/8p1J7ZY-CyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
     picture-in-picture" allowfullscreen></iframe>
-    <div class="w-100"></div>
-    <div class="col">Column3</div>
-    <iframe width="560" height="315" src="video/steak1.mp4"frameborder="0" allow="
+                            <div class="w-100"></div>
+                            <div class="col">Column3</div>
+                            <iframe width="560" height="315" src="video/steak1.mp4" frameborder="0" allow="
     accelerometer; autoplay; encrypted-media; gyroscope; 
     picture-in-picture" allowfullscreen></iframe>
-    <div class="col">Column4</div>
-    <iframe width="560" height="315" src="video/steak2.mp4" allowfullscreen></iframe>
-    
-  </div>
-</div>
+                            <div class="col">Column4</div>
+                            <iframe width="560" height="315" src="video/steak2.mp4" allowfullscreen></iframe>
 
-<!--END of Video section-->
+                        </div>
+                    </div>
 
-<!--END of article-->
+                    <!--END of Video section-->
 
-	<div class="modal" tabindex="-1" role="dialog" id="winticketModal">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title">Submit your presence and Win 2 Tickets!</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!--END of article-->
+
+                    <section class="quotes">
+                        <div class="row">
+                            <div class="col-12 my-5">
+                                <h2 class="text-uppercase text-center">Quotes:</h2>
+                                <hr />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="media">
+                                    <div class="d-none d-sm-block">
+                                        <img src="images/face2.jpg" class="rounded-circle mr-3" height=110 width=110>
+                                    </div>
+                                    <div class="media-body">
+                                        <blockquote class="blockquote">
+                                            <p>Never knew it's so easy. Will never visit OFF LICENCE again. <i class="fas fa-thumbs-up"></i> Thank You.</p>
+                                            <footer class="blockquote-footer">Bob Conor on <cite title="Twitter">Snapchap</cite></footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="media">
+                                    <div class="d-none d-sm-block">
+                                        <img src="images/face1.jpg" class="rounded-circle mr-3" height=110 width=110>
+                                    </div>
+                                    <div class="media-body">
+                                        <blockquote class="blockquote">
+                                            <p>I would have done it for a long time, if I knew how easy it is.<i class="fas fa-thumbs-up"> Thanks</i></p>
+                                            <footer class="blockquote-footer">Micheal Owen on <cite title="Google">Instagram</cite></footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="quotes">
+                        <div class="row">
+                            <div class="col-12 my-5">
+                                <h2 class="text-uppercase text-center">Quotes:</h2>
+                                <hr />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="media">
+                                    <div class="d-none d-sm-block">
+                                        <img src="images/face3.jpg" class="rounded-circle mr-3" height=110 width=110>
+                                    </div>
+                                    <div class="media-body">
+                                        <blockquote class="blockquote">
+                                            <p>Never knew it's so easy. Will never visit OFF LICENCE again. <i class="fas fa-thumbs-up"></i> Thank You.</p>
+                                            <footer class="blockquote-footer">Joe Martin on <cite title="Twitter">Twitter</cite></footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="media">
+                                    <div class="d-none d-sm-block">
+                                        <img src="images/face4.jpg" class="rounded-circle mr-3" height=110 width=110>
+                                    </div>
+                                    <div class="media-body">
+                                        <blockquote class="blockquote">
+                                            <p>I would have done it for a long time, if I knew how easy it is.<i class="fas fa-thumbs-up"> Thanks</i></p>
+                                            <footer class="blockquote-footer">Lukas Simko on <cite title="Google">Google</cite></footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--Gallery section-->
+                    <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+    <img src="images/barbeque.jpg" alt="barbeque" width="600" height="400">
+  </a>
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+
+                    <div class="gallery">
+                        <a target="_blank" href="img_forest.jpg">
+    <img src="images/bbq.jpg" alt="bbq" width="600" height="400">
+  </a>
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+
+                    <div class="gallery">
+                        <a target="_blank" href="img_lights.jpg">
+    <img src="images/burger1.jpg" alt="burger1" width="600" height="400">
+  </a>
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+
+                    <div class="gallery">
+                        <a target="_blank" href="img_mountains.jpg">
+    <img src="images/friends.jpg" alt="friends" width="600" height="400">
+  </a>
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+                    <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+    <img src="images/cheers.jpg" alt="cheers" width="600" height="400">
+  </a>
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+
+                    <div class="gallery">
+                        <a target="_blank" href="img_forest.jpg">
+    <img src="images/smoke.jpg" alt="smoke" width="600" height="400">
+  </a>
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+
+                    
+                    <!--END of Gallery section-->
+
+
+                    <div class="modal" tabindex="-1" role="dialog" id="winticketModal">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Submit your presence and Win 2 Tickets!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 			  <span aria-hidden="true">&times;</span>
 			</button>
-					</div>
+                                </div>
 
-					<div class="modal-body">
-						<form>
-							<div class="form-group">
-								<label for="exampleInputEmail1">Email address</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-							</div>
-							<div class="form-group">
-								<label for="password">Password</label>
-								<input type="password" class="form-control" id="password" placeholder="Password">
-							</div>
-							<div class="form-group">
-								<label for="repeatPassword">Repeat Password</label>
-								<input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-							</div>
-							<button type="submit" class="btn btn-success">Submit</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
-	<footer>
-<footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About</h5>
-                <p class="inline-block">
-                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">FAQ</h5>
-                <p class="inline-block">
-                    Need a printable version usefull info? Download it here.
-                    <a href="images/htgh.pdf" target="_blank" class="faq">
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password">Password</label>
+                                            <input type="password" class="form-control" id="password" placeholder="Password">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="repeatPassword">Repeat Password</label>
+                                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                                        </div>
+                                        <button type="submit" class="btn btn-success">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+        </main>
+
+
+
+        <footer>
+            <footer class="container-fluid">
+                <div id="footer-details" class="row">
+                    <div class="col-sm-4">
+                        <h5 class="uppercase general-sub">About</h5>
+                        <p class="inline-block">
+                            Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5 class="uppercase general-sub">FAQ</h5>
+                        <p class="inline-block">
+                            Need a printable version usefull info? Download it here.
+                            <a href="images/htgh.pdf" target="_blank" class="faq">
                         <i class="fa fa-download" aria-hidden="true"></i>
                         <span class="sr-only">Download link.</span>
                     </a>
-                </p>
-            </div>
-            <div class="col-sm-4 footer-container">
-                <h5 class="uppercase general-sub">Social</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/Craft-beer-festival-332173994153192/?modal=composer">
+                        </p>
+                    </div>
+                    <div class="col-sm-4 footer-container">
+                        <h5 class="uppercase general-sub">Social</h5>
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.facebook.com/Craft-beer-festival-332173994153192/?modal=composer">
                             <i class="fab fa-facebook-f" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://twitter.com/festival_craft">
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://twitter.com/festival_craft">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.youtube.com/watch?v=8p1J7ZY-CyY">
+                            </li>
+                            <li class="list-inline-item">
+                                <a target="_blank" href="https://www.youtube.com/watch?v=8p1J7ZY-CyY">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">You Tube</span><li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fas fa-at aria-hidden"></i>
                             <span class="sr-only">e-Mail</span>
                         </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-	</footer>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-</body>
+    </body>
+
 </html>
-
-
