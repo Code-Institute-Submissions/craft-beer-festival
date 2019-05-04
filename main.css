@@ -1,30 +1,97 @@
 
-.bg-white {
-    background-color: #f7e3543d!important;
-}
  /*NAVBAR*/
     .navbar-toggler{
-     margin-left: 290px!important;
+     margin-left: 290px
      }
      
+.fixed-top {
+    position: fixed;
+    background-color: #ead8573d;
+    height: 40px;
+    
+}
+/*HEADINGS*/
+.gallery-heading{
+}
+ .heading-row{
+     background-color: beige;
+    
+}   
 
+ul {
+list-style-type: none;
+}
 
+/* section*/
+section {
+    margin-bottom: 50px;
+}
 /* video*/
 #myVideo {
   position: relative;
   right: 0;
   bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+  min-width: 50%; 
+  min-height: 50%;
   z-index: -1;
 }
- .fixed-top {
-    position: relative;
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+ /*GALLERY*/
+ .carousel-inner{
+  padding-left: 60px;
+  margin-left: 130px;   
+ }
+
+/*#video{*/
+/*    margin-left: 50px;*/
+/*    bottom: 160px;*/
     
-} 
+/*}*/
+.col1-video{
+    padding-left: 260px;
+}
+
+.row1-video{
+    margin-bottom: 60px;
+}
+
+ .section-header{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left-width: 20px;
+    margin-top: 60px;
+    border-bottom-width: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ .reasons-header{
+     
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+ } 
 
 
 /* Add some content at the bottom of the video/page */
+
 .content {
   position: absolute;
   bottom: 0;
@@ -50,57 +117,33 @@
     text-align: center;
     background-color: #f7e3543d;
 }
-.about-img{
-    background-image: url("images/pouringbeer.jpg");
-    background-position: center 35%;
-}
+
+ /*QUOTES */
+ 
+ #quotes{
+     width: 100%;
+ }
+/*.about-img{*/
+/*    background-image: url("images/pouringbeer.jpg");*/
+/*    background-position: center 35%;*/
+/*}*/
 
 /*------------ HEADER ------------*/
-.section-header{text-align: center;
+.section-header
+{text-align: center;
+    
+}
   
 /*------------ GALLERY ------------*/  
  
- .gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
 
-.gallery:hover {
-  border: 1px solid #777;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-.desc {
-  padding: 15px;
-  text-align: center; 
-}
 /*------------ FOOTER ------------*/
 .container-fluid{
 background-color: #fdf8d6;
     
 }
 /* Style the button used to pause/play the video */
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-  position: relative;
-}
 
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
 /*------------ IMAGES ------------*/
 
  .beer-image-gallery{
