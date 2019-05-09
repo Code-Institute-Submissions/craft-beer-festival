@@ -12,7 +12,7 @@
         <title>Craft Beer Festival</title>
     </head>
 
-    <body class="px-5">
+    <body class="px-2">
         </a>>
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tickets</a>
+                        <a class="nav-link" href="#tickets">Tickets</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -334,7 +334,7 @@
                         <h2 class="text-uppercase text-center">6pm DJ SCOTT // 8pm <a href="https://www.arminvanbuuren.com/biography/" target="_blank" class="concert-links"> Armin Van Buuren </a></h2>
                         <h1 style="text-align:center;white-space:pre-wrap;">&nbsp; </h1>
                         <h3 class="text-uppercase text-center">Saturday June 22nd</h3>
-                        <h2 class="text-uppercase text-center">7pm <a href="https://www.cranberries.com/music" target="_blank" class="concert-links">The Cranberries</a></h2>
+                        <h2 class="text-uppercase text-center" id="tickets">7pm <a href="https://www.cranberries.com/music" target="_blank" class="concert-links">The Cranberries</a></h2>
                         <hr>
                         <h1 class="text-uppercase text-center">tickets&tokens</h1>
                         <p class="text-center">GENERAL ADMISSION:</p>
@@ -349,6 +349,7 @@
                 </div>
                 <hr>
 
+                <!--SPONSORSHIP-->
                 <section id="sponsorship">
                     <div>
                         <h1 class="text-center sponsors-header ">SPONSORS</h1>
@@ -377,9 +378,12 @@
                     </div>
                 </section>
 
+                <!--END OF SPONSORSHIP-->
+
+                <!--PARTNERSHIP-->
                 <section id="partnership">
                     <div>
-                        <h1 class="text-center sponsors-header ">PARTNERSHIP</h1>
+                        <h1 class="text-center sponsors-header ">INTERESTED IN PARTNERSHIP?</h1>
                     </div>
                     <div class="row partnership-row" class="partner.jpg">
                         <div class="col-sm-4">
@@ -392,6 +396,7 @@
                                 </h1>
                         </div>
                     </div>
+                    <!--END OF PARTNERSHIP-->
 
 
 
@@ -399,8 +404,7 @@
 
 
 
-
-
+                        <!--MODAL FOR WIN TICKET BUTTON-->
 
                     <section class="modals" <div class="modal-body">
                         <div class="modal" tabindex="-1" role="dialog" id="winticketModal">
@@ -433,9 +437,9 @@
                             </div>
                         </div>
                         </div>
+                                <!--END OF MODAL FOR WIN TICKET BUTTON-->
 
-
-
+                            <!--MODAL FOR BUY TICKET-->
                         <div class="modal" tabindex="-1" role="dialog" id="buyTicket">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
@@ -522,93 +526,11 @@
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-                        <!--            <div class="modal" tabindex="-1" role="dialog" id="buyTicket">-->
-                        <!--                <div class="modal-dialog" role="document">-->
-                        <!--                    <div class="modal-content">-->
-                        <!--                        <div class="modal-header">-->
-                        <!--                            <h5 class="modal-title">Buy Ticket</h5>-->
-                        <!--                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
-                        <!--  <span aria-hidden="true">&times;</span>-->
-                        <!--</button>-->
-                        <!--                        </div>-->
-                        <!--                        <div class="modal-body">-->
-                        <!--                            <div class="row">-->
-                        <!--<div class="col-75">-->
-                        <!--  <div class="container">-->
-                        <!--    <form action="/action_page.php">-->
-
-                        <!--      <div class="row text-center">-->
-                        <!--        <div class="text-center">-->
-                        <!--          <h3>Billing Address</h3>-->
-                        <!--          <label for="fname"><i class="fa fa-user"></i> Full Name</label>-->
-                        <!--          <input type="text" id="fname" name="firstname" placeholder="John M. Doe">  <br>-->
-                        <!--          <label for="email"><i class="fa fa-envelope"></i> Email</label>-->
-                        <!--          <input type="text" id="email" name="email" placeholder="john@example.com"><br>-->
-                        <!--          <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>-->
-                        <!--          <input type="text" id="adr" name="address" placeholder="542 W. 15th Street"><br>-->
-                        <!--          <label for="city"><i class="fa fa-institution"></i> City</label>-->
-                        <!--          <input type="text" id="city" name="city" placeholder="Dublin"><br>-->
-                        <!--          <label for="County">County</label>-->
-                        <!--          <input type="text" id="state" name="state" placeholder="Dublin">-->
-
-                        <!--        </div>-->
-
-                        <!--          <div class="col-50">-->
-                        <!--            <h3>Payment</h3>-->
-                        <!--            <label for="fname">Accepted Cards</label>-->
-                        <!--            <div class="icon-container">-->
-                        <!--              <i class="fa fa-cc-visa" style="color:navy;"></i>-->
-                        <!--              <i class="fa fa-cc-amex" style="color:blue;"></i>-->
-                        <!--              <i class="fa fa-cc-mastercard" style="color:red;"></i>-->
-                        <!--              <i class="fa fa-cc-discover" style="color:orange;"></i>-->
-                        <!--            </div>-->
-                        <!--            <label for="cname">Name on Card</label>-->
-                        <!--            <input type="text" id="cname" name="cardname" placeholder="John More Doe">-->
-                        <!--            <label for="ccnum">Credit card number</label>-->
-                        <!--            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">-->
-                        <!--            <label for="expmonth">Exp Month</label>-->
-                        <!--            <input type="text" id="expmonth" name="expmonth" placeholder="September">-->
-                        <!--            <div class="row">-->
-                        <!--              <div class="col-50">-->
-                        <!--                <label for="expyear">Exp Year</label>-->
-                        <!--                <input type="text" id="expyear" name="expyear" placeholder="2018">-->
-                        <!--              </div>-->
-                        <!--              <div class="col-50">-->
-                        <!--                <label for="cvv">CVV</label>-->
-                        <!--                <input type="text" id="cvv" name="cvv" placeholder="352">-->
-                        <!--              </div>-->
-                        <!--            </div>-->
-                        <!--          </div>-->
-
-                        <!--        </div>-->
-                        <!--        <label>-->
-                        <!--          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing-->
-                        <!--        </label>-->
-                        <!--        <input type="submit" value="Continue to checkout" class="btn">-->
-                        <!--      </form>-->
-                        <!--    </div>-->
-                        <!--  </div>-->
-
-
-                        <!--</div>-->
-                        <!--                                </div>-->
-                        <!--                            </div>-->
-                        <!--                        </div>-->
-                        <!--                    </div>-->
-                    </section>
-
-
-
-
+                        
         </main>
+                    <!--END OF MODAL FOR BUY TICKET BUTTON-->
 
-
-
+                    <!--FOOTER-->
         <footer>
             <footer class="container-fluid">
                 <div id="footer-details" class="row">
@@ -633,19 +555,19 @@
                         <ul class="list-inline social-links">
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://www.facebook.com/Craft-beer-festival-332173994153192/?modal=composer">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <i class="fab fa-facebook-f social-a" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                             </li>
-                            <li class="list-inline-item">
+                            <li class="list-inline-item ">
                                 <a target="_blank" href="https://twitter.com/festival_craft">
-                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <i class="fab fa-twitter social-a" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                             </li>
                             <li class="list-inline-item">
                                 <a target="_blank" href="https://www.youtube.com/watch?v=8p1J7ZY-CyY">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <i class="fab fa-youtube social-a" aria-hidden="true"></i>
                             <span class="sr-only">You Tube</span><li class="list-inline-item">
                         <a href="mailto:tomaszcygal@yahoo.com?Subject=Hello" target="_top" href="#">
                             <i class="fas fa-at aria-hidden"></i>
@@ -656,6 +578,8 @@
                     </div>
                 </div>
             </footer>
+            
+             <!--END OF FOOTER-->
 
 
 
