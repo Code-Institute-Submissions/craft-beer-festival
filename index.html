@@ -65,7 +65,7 @@
                 <button class="btn btn-success text-uppercase ml-md-3" data-toggle="modal" data-target="#winticketModal">Win Ticket</button>
             </div>
         </nav>
-        <main>
+        
             <!-- The video -->
             <div class="video-wrapper d-none d-lg-block">
                 <div class="fullscreen bg">
@@ -73,23 +73,19 @@
 					<source src="video/man.mp4" type="video/mp4">
 				</video>
                 </div>
+            </div>
 
-                <div class="content d-none d-lg-block">
-                    <div class="header">
-                        <h1 class="header"><strong>Join</strong><small> Us For Biggest Craft Beer Festival. Scroll Down For More Info.</small></h1>
-                        <!-- Use a button to pause/play the video with JavaScript -->
-                    </div>
-                    <button id="myBtn" onclick="myFunction()">Pause</button>
+            <div class="audio-content d-none d-lg-block">
+                <div>
+                    <h1 class="header"><strong>Join</strong><small> Us For Biggest Craft Beer Festival.</small></h1>
+                    <!-- Use a button to pause/play the video with JavaScript -->
                 </div>
-
-                <div class="sound-wrapper d-none d-lg-block">
-                    <div class="sound-bg">
-                        <audio src="sound/nature-sound.mp3" controls>
+                <audio src="sound/nature-sound.mp3" class="audio" controls>
 						<p>If you are reading this, it is because your browser does not support the audio element.</p>
 					</audio>
-                    </div>
-                </div>
+
             </div>
+
 
 
             <!--END video element-->
@@ -119,54 +115,63 @@
 
             <!--Section-->
             <section>
-                <div class="row heading-row">
+                <div class="row">
+                    <div class="col-sm-12 advert-row"> 
 
-                    <span class="section-header text-center d-none d-lg-block">
-                        YOUR FAVOURITE IRISH CRAFT BEER FESTIVAL IS BACK BUT..... A LITTLE BIT DIFFERENT THAN BEFORE INTERNATIONAL STARS MIXED WITH LOCAL HEROES BRINGING FESTIVAL TO DDUBLIN FOR A THE FIRST FESTIVAL OF THE SEASON 2019 21st & 22nd June 2019 @ MARLAY PARK Festival
-                        is open from 4pm-11pm onFriday and from 2pm-11.30pm on Saturday! Last entry 9pm each night!
-                    </span>
+                    <p class="section-header text-center d-none d-lg-block">
+                        YOUR FAVOURITE IRISH CRAFT BEER FESTIVAL IS BACK BUT..... <br>
+                        A LITTLE BIT DIFFERENT THAN BEFORE INTERNATIONAL STARS MIXED <br>
+                        WITH LOCAL HEROES BRINGING FESTIVAL TO DUBLIN FOR A THE FIRST<br>
+                        FESTIVAL OF THE SEASON 2019. 21st & 22nd June 2019 @ MARLAY PARK. Festival
+                        is open from <br>4pm-11pm on Friday and <br>from 2pm-11.30pm on Saturday! <br>
+                        Last entry 9pm each night!
+                    </p>
+                    </div>
                 </div>
                 <!--Article-->
                 <hr>
+                <div>
+                    <p class="reasons-header"><strong>WHY YOU SHOULD CARE</strong></p>
+                </div>
                 <div class="reasons-container">
+
                     <div class="reason-content">
-                        <span class="reasons-header"><strong>Find Your Own Reason to Join Our Fantastic Venue</strong></span>
-                        <div class="row" id="reason-text">
-                            <div class="col-sm-4">
+                        <div class="row reasons-row" id="reason-text">
+                            <div class="col-sm-6">
                                 <h3 class="text-center">Let's Enjoy Nature</h3>
                                 <p class="text-reasons">Getting outside and enjoying the great outdoors is something most everyone loves. It simply makes people happy. Who doesn’t love breathing clean, fresh air, hearing the serene sounds of nature, and walking on a soft trail
                                     padded with trees? And who doesn’t need a break from technology – smartphones, computers, tablets, television, movies, internet, video games, and so on? Spending some time in nature can feel like a relief after staring
                                     at a screen or being stuck inside all day or long week. There are plenty of ways to enjoy nature: you can exercise outside, document what you see, and even just commit yourself to really experiencing what’s happening.
                                     Bring a blanket, deck chair, umbrella and enjoy freedom with your favorite craft beer.Does it sound good? So don't think twice</p>
                             </div>
-                            <div class="col-sm-4">
-                                <h3 class="text-center">Biggest Selection Of Craft Beers</h3>
-                                <p class="text-reasons">You will find 40 out of 72 Irish Craft Beer Breweries. Including Top 10 Craft Beer Breweries In Ireland!!!
-                                    <ul class="text-center ">
+                            <!--<div class="col-sm-4">-->
+                            <!--    <h3 class="text-center">Biggest Selection Of Craft Beers</h3>-->
+                            <!--    <p class="text-reasons">You will find 40 out of 72 Irish Craft Beer Breweries. Including Top 10 Craft Beer Breweries In Ireland!!!-->
+                            <!--        <ul class="text-center ">-->
 
-                                        <li><a href="https://rascalsbrewing.com/" target="_blank">Rascals Brewing Company,Co. Dublin</a></li>
+                            <!--            <li><a href="https://rascalsbrewing.com/" target="_blank">Rascals Brewing Company,Co. Dublin</a></li>-->
 
-                                        <li><a href="http://www.yardsmanlager.com/" target="_blank">Hercules Brewing Company,Co. Antrim</a></li>
+                            <!--            <li><a href="http://www.yardsmanlager.com/" target="_blank">Hercules Brewing Company,Co. Antrim</a></li>-->
 
-                                        <li><a href="http://www.yardsmanlager.com/" target="_blank">Walled City Brewey,Co. Derry</a></li>
+                            <!--            <li><a href="http://www.yardsmanlager.com/" target="_blank">Walled City Brewey,Co. Derry</a></li>-->
 
-                                        <li><a href="http://franciscanwellbrewery.com/en/check?returnUrl=/en/index" target="_blank">Franciscan Well Brewery and Brewpub,Co. Cork</a></li>
+                            <!--            <li><a href="http://franciscanwellbrewery.com/en/check?returnUrl=/en/index" target="_blank">Franciscan Well Brewery and Brewpub,Co. Cork</a></li>-->
 
-                                        <li><a href="http://www.metalmanbrewing.com/" target="_blank">Metalman Brewery Company,Co. Waterford</a></li>
+                            <!--            <li><a href="http://www.metalmanbrewing.com/" target="_blank">Metalman Brewery Company,Co. Waterford</a></li>-->
 
-                                        <li><a href="https://treatycitybrewery.ie/" target="_blank">Treaty City Brewing Company,Co. Limerick</a></li>
+                            <!--            <li><a href="https://treatycitybrewery.ie/" target="_blank">Treaty City Brewing Company,Co. Limerick</a></li>-->
 
-                                        <li><a href="http://www.beoir.org/index.php/craft-beer-directories/breweries?pid=675&sid=940:Dingle-Brewing-Company" target="_blank">Dingle Brewing Company , Co. Kerry</a></li>
+                            <!--            <li><a href="http://www.beoir.org/index.php/craft-beer-directories/breweries?pid=675&sid=940:Dingle-Brewing-Company" target="_blank">Dingle Brewing Company , Co. Kerry</a></li>-->
 
-                                        <li><a href="http://troublebrewing.ie/" target="_blank">Trouble Brewing , Co. Kildare</a></li>
+                            <!--            <li><a href="http://troublebrewing.ie/" target="_blank">Trouble Brewing , Co. Kildare</a></li>-->
 
-                                        <li><a href="http://www.galwaybaybrewery.com/" target="_blank">Galway Bay Brewery, , Co. Galway</a></li>
+                            <!--            <li><a href="http://www.galwaybaybrewery.com/" target="_blank">Galway Bay Brewery, , Co. Galway</a></li>-->
 
-                                        <li><a href="https://thewhitehag.com/" target="_blank">The White Hag Brewing Company , Co. Sligo</a></li>
-                                    </ul>
+                            <!--            <li><a href="https://thewhitehag.com/" target="_blank">The White Hag Brewing Company , Co. Sligo</a></li>-->
+                            <!--        </ul>-->
 
-                            </div>
-                            <div class="col-sm-4">
+                            <!--</div>-->
+                            <div class="col-sm-6">
                                 <h3 class="text-center">The Food Area</h3>
                                 <p class="text-reasons">
                                     Feel free to arrive with an appetite as not everything worth tasting here is liquid. Expect delicious bites from artisan producers all along the coast are making some of Europe’s best cheeses, craft brews and chocolates, with primary ingredients sourced
@@ -178,10 +183,86 @@
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </section>
+            
+            <section id="beer-participants">
+                
+                <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class= "col-sm-1">
+                            <a href="https://rascalsbrewing.com/" target="_blank"><img src="images/dingle.png" class="d-block img-participants" alt="dingle" > </a>
+                            
+                        </div>
+                        <div class= "col-sm-1">
+                          <img src="images/franciscan-well.gif" class="d-block img-participants" alt="franciscan-well">  
+                        </div>
+                        <div class= "col-sm-1">
+                          <img src="images/galway.jpg" class="d-block img-participants" alt="galway">  
+                        </div>
+                        <div class= "col-sm-1">
+                          <img src="images/hercules.gif" class="d-block img-participants" alt="hercules">  
+                        </div>
+                        <div class= "col-sm-1">
+                          <img src="images/metalman.png" class="d-block img-participants" alt="metalman">  
+                        </div>
+                        <div class= "col-sm-1">
+                          <img src="images/rascals-logo.png" class="d-block img-participants" alt="rascals-logo">  
+                        </div>
+                        <div class= "col-sm-1">
+                          <img src="images/treaty.jpg" class="d-block img-participants" alt="treaty">  
+                        </div>
+                        <div class= "col-sm-1">
+                          <img src="images/trouble.png" class="d-block img-participants" alt="trouble">  
+                        </div>
+                        <div class= "col-sm-1">
+                          <img src="images/walled-city.png" class="d-block img-participants" alt="walled-city">  
+                        </div>
+                        <div class= "col-sm-1">
+                          <img src="images/white-hag.png" class="d-block img-participants" alt="white-hag">  
+                        </div>
+                        <div class= "col-sm-1"></div>
+                    </div>
+            </section>
             <hr>
+            <!--End of Article-->
+            
+            
+            <!--GALLERY SECTION-->
+
+            <section id="gallery">
+                <p class="gallery-heading text-center">GALLERY</p>
+                
+                <div class="row gallery-row">
+                    <div class="col-sm-4">
+                        <img src="images/barbeque.jpg" class="d-block img-gallery" alt="barbeque">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/bbq.jpg" class="d-block img-gallery" alt="bbq">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/burger2.jpg" class="d-block img-gallery" alt="burger2">
+                    </div>
+                </div>
+                <div class="row gallery-row">
+                    <div class="col-sm-4">
+                        <img src="images/friends.jpg" class="d-block img-gallery" alt="friends">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/cheers.jpg" class="d-block img-gallery" alt="cheers">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="images/smoke.jpg" class="d-block img-gallery" alt="smoke">
+                    </div>
+                </div>
+            </section>
+
+            <!--END OF GALLERY-->
+
+
             <!-- Video section-->
+
             <section id="video">
                 <div class="video-heading container fluid">
                     <span class="text-uppercase text-center">Can't wait? See whats instore!</span>
@@ -189,32 +270,90 @@
                 </div>
                 <div class="row row1-video">
                     <div class="col-sm-2"></div>
-                    <div class="col-sm-4 "><iframe width="560" height="400" src="https://www.youtube.com/embed/EketHuXJ3_c" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+                    <div class="col-sm-4 "><iframe width=100% height="260" src="https://www.youtube.com/embed/EketHuXJ3_c" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
                                 picture-in-picture" allowfullscreen></iframe></div>
 
-                    <div class="col-sm-6"><iframe width="560" height="400" src="https://www.youtube.com/embed/8p1J7ZY-CyY" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+                    <div class="col-sm-4"><iframe width=100% height="260" src="https://www.youtube.com/embed/8p1J7ZY-CyY" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
                                 picture-in-picture" allowfullscreen></iframe></div>
                 </div>
                 <div class="row">
                     <div class="col-sm-2"></div>
-                    <div class="col-sm-4"><iframe width="560" height="400" src="video/steak1.mp4" allowfullscreen></iframe>
+                    <div class="col-sm-4">
+                        <video width=100% controls>
+                         <source src="video/steak1.mp4" type="video/mp4">
+                   </video>
+                        <div class="col-sm-4">
+                        <video width=100% controls>
+                         <source src="video/steak2.mp4" type="video/mp4">
+                    </video>
                     </div>
-
-                    <div class="col-sm-6"><iframe width="560" height="400" src="video/steak2.mp4"></iframe>
-                    </div>
+                </div>
                 </div>
             </section>
 
 
 
             <!--END of Video section-->
+
             <hr>
+            
+
+                        <!--ABOUT VENUE MUSIC TICKETS-->
+            <div class="container-fluid" id="music-lineup-heading">
+                <h1 class="text-uppercase text-center">MUSIC LINE UP 2019</h1>
+                <p class="text-uppercase text-center">Friday June 21st</p>
+                <h2 class="text-uppercase text-center">6pm DJ SCOTT // 8pm <a href="https://www.arminvanbuuren.com/biography/" target="_blank" class="concert-links"> Armin Van Buuren </a></h2>
+                <h1 style="text-align:center;white-space:pre-wrap;">&nbsp; </h1>
+                <h3 class="text-uppercase text-center">Saturday June 22nd</h3>
+                <h2 class="text-uppercase text-center" id="tickets">7pm <a href="https://www.cranberries.com/music" target="_blank" class="concert-links">The Cranberries</a></h2>
+                <hr>
+                <h1 class="text-uppercase text-center">tickets&tokens</h1>
+                <p class="text-center">GENERAL ADMISSION:</p>
+                <p class="text-center">Entry at the door is €15.00.<br>Early Bird: SAVE 15% - buy till 26th of May.
+                    <br>Save 25% - buy 2 tickets now for €20 (including booking fee) </p>
+                <p class="text-center">Tokens are €4.</p>
+                <div class="col-sm-12 text-center">
+                    <button type="button" class="btn buy-button center-block" id="buy-button" data-toggle="modal" data-target="#buyTicket">BUY TICKET</button>
+                </div>
+
+                <p class="text-center">Group rates available for 20 or more - Contact: tomaszcygal@yahoo.com.</p>
+            </div>
+            <hr>
+
+            <!--END ABOUT VENUE MUSIC TICKETS-->
+
+
+            
+            
+            <!--PARTNERSHIP-->
+
+            <section id="partnership">
+                <div>
+                    <h1 class="text-center sponsors-header">INTERESTED IN PARTNERSHIP?</h1>
+                </div>
+                <div class="row partnership-row">
+                    <div class="col-sm-4 partner-jpg">
+                        <img src="images/glass-beer.jpg" alt="glass-beer" class="partner-jpg">
+                    </div>
+                    <div class="col-sm-8">
+                        <h3 class="partnership-heading">
+                            Let’s Host A Beer Festival Together! We create and promote successful beer tasting festivals in the Ireland. By following our own unique model called “BrewFest Success™,” we combine our knowledge of craft beer market trends with nearly 12years of event
+                            ideation and management experience to create exciting, fun and profitable events.”
+                        </h3>
+                        <button type="button" class="btn buy-button center-block" id="contact-button" data-toggle="modal" data-target="#contact">CONTACT</button>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--END OF PARTNERSHIP-->
+            
             <!--Quotes section-->
 
             <section id="quotes">
                 <div class="row">
                     <div class="col-12 ">
-                        <h2 class="text-uppercase text-center">Quotes:</h2>
+                        <h2 class="text-uppercase text-center">our happy festival guests say:</h2>
                         <hr />
                     </div>
                 </div>
@@ -277,80 +416,9 @@
                 </div>
             </section>
             <!--END of Quotes section-->
-
-            <hr>
-            <!--Gallery section-->
-
-            <section id="gallery">
-                <span class="gallery-heading text-center">GALLERY</span>
-                <hr>
-                <div class="row gallery">
-                    <div class="col-sm-4">
-                        <img src="images/barbeque.jpg" class="d-block img-gallery" alt="barbeque">
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="images/bbq.jpg" class="d-block img-gallery" alt="bbq">
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="images/burger2.jpg" class="d-block img-gallery" alt="burger2">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img src="images/friends.jpg" class="d-block img-gallery" alt="friends">
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="images/cheers.jpg" class="d-block img-gallery" alt="cheers">
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="images/smoke.jpg" class="d-block img-gallery" alt="smoke">
-                    </div>
-                </div>
-            </section>
-
-            <hr>
-
-            <!--GOOGLE MAP-->
-
-            <section id="map">
-                <span class="text-center">MAP</span>
-                <div class="row">
-                    <div class="col-sm-4">
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="images/map.jpg" class="d-block img-gallery" alt="map">
-                    </div>
-                    <div class="col-sm-4">
-                    </div>
-                </div>
-
-            </section>
-            <!--END of GOOGLE MAP-->
-
-            <hr>
-            <div class="container-fluid" id="music-lineup-heading">
-                <h1 class="text-uppercase text-center">MUSIC LINE UP 2019</h1>
-                <p class="text-uppercase text-center">Friday June 21st</p>
-                <h2 class="text-uppercase text-center">6pm DJ SCOTT // 8pm <a href="https://www.arminvanbuuren.com/biography/" target="_blank" class="concert-links"> Armin Van Buuren </a></h2>
-                <h1 style="text-align:center;white-space:pre-wrap;">&nbsp; </h1>
-                <h3 class="text-uppercase text-center">Saturday June 22nd</h3>
-                <h2 class="text-uppercase text-center" id="tickets">7pm <a href="https://www.cranberries.com/music" target="_blank" class="concert-links">The Cranberries</a></h2>
-                <hr>
-                <h1 class="text-uppercase text-center">tickets&tokens</h1>
-                <p class="text-center">GENERAL ADMISSION:</p>
-                <p class="text-center">Entry at the door is €15.00.<br>Early Bird: SAVE 15% - buy till 26th of May.
-                    <br>Save 25% - buy 2 tickets now for €20 (including booking fee) </p>
-                <p class="text-center">Tokens are €4.</p>
-                <div class="col-sm-12 text-center">
-                    <button type="button" class="btn buy-button center-block" id="buy-button" data-toggle="modal" data-target="#buyTicket">BUY TICKET</button>
-                </div>
-
-                <p class="text-center">Group rates available for 20 or more - Contact: tomaszcygal@yahoo.com.</p>
-            </div>
-            <hr>
-
-            <!--SPONSORSHIP-->
             
+            <!--SPONSORSHIP-->
+
             <section id="sponsorship">
                 <div>
                     <span class="text-center sponsors-header ">SPONSORS</span>
@@ -381,216 +449,6 @@
 
             <!--END OF SPONSORSHIP-->
 
-            <!--PARTNERSHIP-->
-            
-            <section id="partnership">
-                <div>
-                    <h1 class="text-center sponsors-header">INTERESTED IN PARTNERSHIP?</h1>
-                </div>
-                <div class="row partnership-row partner.jpg">
-                    <div class="col-sm-4">
-                        <img src="images/glass-beer.jpg" alt="glass-beer" class="partner.jpg">
-                    </div>
-                    <div class="col-sm-8">
-                        <h3 class="partnership-heading">
-                            Let’s Host A Beer Festival Together! We create and promote successful beer tasting festivals in the Ireland. By following our own unique model called “BrewFest Success™,” we combine our knowledge of craft beer market trends with nearly 12years of event
-                            ideation and management experience to create exciting, fun and profitable events.”
-                        </h3>
-                        <button type="button" class="btn buy-button center-block" id="contact-button" data-toggle="modal" data-target="#contact">CONTACT</button>
-
-                    </div>
-                </div>
-            </section>
-            
-            <!--END OF PARTNERSHIP-->
-
-
-
-
-
-
-
-            <!--MODAL FOR WIN TICKET BUTTON-->
-
-            <section class="modals">
-                <div class="modal-body">
-                    <div class="modal" tabindex="-1" role="dialog" id="winticketModal">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Submit your presence and Win 2 Tickets!</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			  <span aria-hidden="true">&times;</span>
-			</button>
-                                </div>
-
-                                <form>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password">Password</label>
-                                        <input type="password" class="form-control" id="password" placeholder="Password">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="repeatPassword">Repeat Password</label>
-                                        <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-                                    </div>
-                                    <button type="submit" class="btn btn-success">Submit</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <!--END OF MODAL FOR WIN TICKET BUTTON-->
-
-            
-            
-            <!--MODAL FOR BUY TICKET-->
-            
-            <div class="modal" tabindex="-1" role="dialog" id="buyTicket">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Payement</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                        </div>
-                        <div class="modal-body">
-
-                            <div class="row">
-                                <div class="col-75">
-                                    <div class="container-payement">
-                                        <form action="/action_page.php">
-
-                                            <div class="row">
-                                                <div class="col-50">
-                                                    <h3>Billing Address</h3>
-                                                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                                                    <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
-                                                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                                                    <input type="text" id="email" name="email" placeholder="john@example.com">
-                                                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                                                    <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-                                                    <label for="city"><i class="fa fa-institution"></i> City</label>
-                                                    <input type="text" id="city" name="city" placeholder="Dublin">
-
-                                                    <div class="row">
-                                                        <div class="col-50">
-                                                            <label for="state">County</label>
-                                                            <input type="text" id="state" name="state" placeholder="Dublin">
-                                                        </div>
-                                                        <div class="col-50">
-                                                            <label for="zip">Code</label>
-                                                            <input type="text" id="zip" name="code" placeholder="00000">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-50">
-                                                    <h3>Payment</h3>
-                                                    <label for="fname">Accepted Cards</label>
-                                                    <div class="icon-container">
-                                                        <i class="fa fa-cc-visa" style="color:navy;"></i>
-                                                        <i class="fa fa-cc-amex" style="color:blue;"></i>
-                                                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
-                                                        <i class="fa fa-cc-discover" style="color:orange;"></i>
-                                                    </div>
-                                                    <label for="cname">Name on Card</label>
-                                                    <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-                                                    <label for="ccnum">Credit card number</label>
-                                                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-                                                    <label for="expmonth">Exp Month</label>
-                                                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
-                                                    <div class="row">
-                                                        <div class="col-50">
-                                                            <label for="expyear">Exp Year</label>
-                                                            <input type="text" id="expyear" name="expyear" placeholder="2018">
-                                                        </div>
-                                                        <div class="col-50">
-                                                            <label for="cvv">CVV</label>
-                                                            <input type="text" id="cvv" name="cvv" placeholder="352">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <label>
-          <input type="checkbox" checked="checked" name="sameadr"> Shipping via email
-        </label>
-                                            <input type="submit" value="Continue to checkout" class="btn">
-                                        </form>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </main>
-        <!--END OF MODAL FOR BUY TICKET BUTTON-->
-
-        <!--MODAL FOR CONTACT BUTTON-->
-
-        <div class="modal" tabindex="-1" role="dialog" id="contact-button">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="conatct-container">
-                            <div style="text-align:center">
-                                <h2>Contact Us</h2>
-                                <p>Give Us a Call: +353 862 698 698, or leave us a message:</p>
-                            </div>
-                            <div class="row">
-                                <div class="column">
-                                    <img src="/w3images/map.jpg" style="width:100%">
-                                </div>
-                                <div class="column">
-                                    <form action="/action_page.php">
-                                        <label for="fname">First Name</label>
-                                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                                        <label for="lname">Last Name</label>
-                                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                                        <label for="country">Country</label>
-                                        <select id="country" name="country">
-          <option value="ireland">Ireland</option>
-          <option value="uk">UK</option>
-          <option value="poland">Poland</option>
-        </select>
-                                        <label for="subject">Subject</label>
-                                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                                        <input type="submit" value="Submit">
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--END OF MODAL FOR CONTACT BUTTON-->
 
 
 
@@ -599,7 +457,7 @@
         <footer class="container-fluid footer-container">
             <div id="footer-details" class="row">
                 <div class="col-sm-4">
-                    <h5 class="uppercase general-sub">TERMS&CONDITIONS APPLY</h5>
+                    <h5></h5>
                     <p class="inline-block">
                         Copyright,Irish Craft Beer Festival,2019.
                     </p>
@@ -609,7 +467,7 @@
                     <p class="inline-block">
                         Need a printable version usefull info? Download it here.
                         <a href="images/htgh.pdf" target="_blank" class="faq">
-                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <i class="fa fa-download fa-2x social-a" aria-hidden="true"></i>
                         <span class="sr-only">Download link.</span>
                     </a>
                     </p>
@@ -619,23 +477,25 @@
                     <ul class="list-inline social-links">
                         <li class="list-inline-item">
                             <a target="_blank" href="https://www.facebook.com/Craft-beer-festival-332173994153192/?modal=composer">
-                            <i class="fab fa-facebook-f social-a" aria-hidden="true"></i>
+                            <i class="fab fa-facebook-f fa-2x social-a" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                         </li>
                         <li class="list-inline-item ">
                             <a target="_blank" href="https://twitter.com/festival_craft">
-                            <i class="fab fa-twitter social-a" aria-hidden="true"></i>
+                            <i class="fab fa-twitter fa-2x social-a" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                         </li>
                         <li class="list-inline-item">
                             <a target="_blank" href="https://www.youtube.com/watch?v=8p1J7ZY-CyY"></a>
-                            <i class="fab fa-youtube social-a" aria-hidden="true"></i>
-                            <span class="sr-only">You Tube</span>
+                            <i class="fab fa-youtube fa-2x social-a" aria-hidden="true"></i>
+                            <span class="sr-only">You Tube</span></li>
+
+                        <li class="list-inline-item">
                             <a href="mailto:tomaszcygal@yahoo.com?Subject=Hello" target="_top">
-                            <i class="fas fa-at aria-hidden"></i>
-                            <span class="sr-only" id="e-mail">e-Mail</span>
+                            <i class="fas fa-at fa-2x" aria-hidden="true"></i>
+                            <span class="sr-only social-a" id="e-mail">e-Mail</span>
                         </a>
                         </li>
                     </ul>
@@ -648,11 +508,14 @@
 
 
 
-
+        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+    
+    
+    
     </body>
 
 </html>

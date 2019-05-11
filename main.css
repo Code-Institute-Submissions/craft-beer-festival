@@ -38,14 +38,41 @@ a:hover {
     color: darkblue;
 }
 
-.text-reasons{
+.text-reasons {
     font-weight: bold;
 }
 
 
 /*HEADINGS*/
+.section-header {
+font-size: x-large;
+color: white;
+}
 
-.gallery-heading {}
+.section-header {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left-width: 20px;
+    margin-top: 60px;
+    border-bottom-width: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.reasons-header {
+
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+}
+
+.gallery-heading {
+    background-image: url("images/hops-field.jpg" );
+    font-size: x-large;
+}
 
 .heading-row {
     background-color: beige;
@@ -67,7 +94,32 @@ section {
     margin-bottom: 50px;
 }
 
+/* audio*/
+.audio{
+    
+}
+.audio-content {
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    z-index: -1;
+}
+.header{
+    padding-bottom: 30px;
+}
 /* video*/
+
+.col1-video {
+    padding-left: 260px;
+}
+
+.row1-video {
+    margin-bottom: 60px;
+}
 
 #myVideo {
     position: relative;
@@ -81,6 +133,10 @@ section {
 
 .section-youtube {
     padding-right: 40px;
+}
+.advert-row{
+    background-image: url("images/beer-lg.jpg" );
+    background-size: contain;
 }
 
 
@@ -129,47 +185,38 @@ section {
 /*GALLERY*/
 
 .img-gallery {
-    width: 460px;
-    height: 360px;
+    width: 80%;
+    height: 300px;
     margin-bottom: 40px;
     transition: transform .7s;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.img-gallery:hover {
+.img-participants {
+    width: 80%;
+    margin-bottom: 40px;
+    transition: transform .7s;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+
+.img-gallery:hover, .img-participants:hover {
     -ms-transform: scale(1.2);
     /* IE 9 */
     -webkit-transform: scale(1.2);
     /* Safari 3-8 */
     transform: scale(1.2)
 }
-
-.col1-video {
-    padding-left: 260px;
+#gallery{
+    background-image: url("images/hops-field.jpg" );
 }
 
-.row1-video {
-    margin-bottom: 60px;
-}
 
-.section-header {
-    margin-left: 20px;
-    margin-right: 20px;
-    border-left-width: 20px;
-    margin-top: 60px;
-    border-bottom-width: 80px;
-    margin-bottom: 80px;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
-.reasons-header {
 
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 40px;
-
-}
 
 
 /* Add some content at the bottom of the video/page */
@@ -206,11 +253,12 @@ section {
 
 #quotes {
     width: 100%;
-    background-color:#e8e8cd;
-  }
-  .face-row{
-      margin-left: 40px;
-  }
+    background-color: #e8e8cd;
+}
+
+.face-row {
+    margin-left: 40px;
+}
 
 /*REASONS-CONTAINER*/
 
@@ -218,13 +266,24 @@ section {
     background-image: url("images/art-beer.jpg"), url("art-beer.jpb");
     color: white;
 }
-#reason-text{
- color: white;   
+
+#reason-text {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    
 }
-.reasons-container ul{
+.text-reasons{
+    font-size: 14pt;
+}
+.reasons-container ul {
     color: white;
 }
-
+.reasons-header {
+    text-align: center;
+    font-size: xx-large;
+    
+}
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -235,31 +294,31 @@ hr {
 
 
 
-.row {
-    margin-left: 10px;
-    margin-bottom: 40px;
-}
 /*------------ SPONSORS ------------*/
-.sponsors-row{
+
+.sponsors-row {
     margin-left: 40px;
     margin-bottom: 40px;
     margin-top: 40px;
-    
+
 }
 
 
 /*------------ PARTNERSHIP ------------*/
 
-/*img {*/
-/*    width: 450px;*/
-/*}*/
+.partner-jpg {
+    width: 100%;
+    height: 320px;
 
+}
 
 /*------------ HEADER ------------*/
-.sponsors-header{
+
+.sponsors-header {
     text-align: center;
     color: slategray;
 }
+
 .section-header {
     text-align: center;
 
@@ -269,7 +328,7 @@ hr {
     letter-spacing: 3px;
 }
 
-/*------------ GALLERY ------------*/
+
 
 /*------------ LOGO ------------*/
 
@@ -278,6 +337,7 @@ hr {
 }
 
 /*------------ FOOTER ------------*/
+
 .container-fluid {
     width: 100%;
     padding-right: 0px;
@@ -288,7 +348,7 @@ hr {
 }
 
 
-.footer-container{
+.footer-container {
     
 }
 
@@ -305,6 +365,9 @@ hr {
 
 }
 
+.social-a{
+    
+}
 /* Style the button used to pause/play the video */
 
 /*------------ IMAGES ------------*/
@@ -315,149 +378,157 @@ hr {
 }
 
 /*------------ Music-Tickets ------------*/
-/*.container-fluid a{*/
-/*    color: darkblue;*/
-/*}*/
-/*.container-fluid a hover:{*/
-/*    color:blue;*/
-/*}*/
-
 
 /*BUY TICKET MODAL*/
+
 .row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -16px;
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
 }
 
 .col-25 {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
 }
 
 .col-50 {
-  -ms-flex: 50%; /* IE10 */
-  flex: 50%;
+    -ms-flex: 50%;
+    /* IE10 */
+    flex: 50%;
 }
 
 .col-75 {
-  -ms-flex: 75%; /* IE10 */
-  flex: 75%;
+    -ms-flex: 75%;
+    /* IE10 */
+    flex: 75%;
 }
 
 .col-25,
 .col-50,
 .col-75 {
-  padding: 0 16px;
+    padding: 0 16px;
 }
 
-.container-payement{
-  background-color: #f2f2f2;
-  padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
+.container-payement {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
 }
 
 input[type=text] {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
 label {
-  margin-bottom: 10px;
-  display: block;
+    margin-bottom: 10px;
+    display: block;
 }
 
 .icon-container {
-  margin-bottom: 20px;
-  padding: 7px 0;
-  font-size: 24px;
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
 }
 
 .btn:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 a {
-  color: darkblue;
+    color: darkblue;
 }
 
 hr {
-  border: 1px solid lightgrey;
+    border: 1px solid lightgrey;
 }
 
 span.price {
-  float: right;
-  color: grey;
+    float: right;
+    color: grey;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+
 @media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
-}
-/* Style inputs for contact modal*/
-* {
-  box-sizing: border-box;
+    .row {
+        flex-direction: column-reverse;
+    }
+    .col-25 {
+        margin-bottom: 20px;
+    }
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+/* Style inputs for contact modal*/
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+    background-color: #45a049;
 }
 
 /* Style the container/contact section */
+
 .contact-container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
 }
 
 /* Create two columns that float next to eachother */
+
 .column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
 }
 
 /* Clear floats after the columns */
+
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
 
+@media screen and (max-width: 600px) {
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
