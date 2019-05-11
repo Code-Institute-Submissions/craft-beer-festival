@@ -106,7 +106,6 @@ section {
     width: 100%;
     padding-bottom: 20px;
     text-align: center;
-    z-index: -1;
 }
 .header{
     padding-bottom: 30px;
@@ -348,6 +347,7 @@ hr {
 }
 
 
+
 .footer-container {
     
 }
@@ -363,6 +363,9 @@ hr {
     text-align: center;
     background-color: #efef8d21;
 
+}
+.copyright{
+        padding-top: 25px;
 }
 
 .social-a{
