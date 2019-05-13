@@ -14,13 +14,13 @@
 
     <body class="px-1">
 
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
-            <button class="navbar-toggler navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
             <!-- NAV BAR LINKS -->
-            <div class="collapse navbar-collapse fixed-top" id="navbarCollapse">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto text-uppercase">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
@@ -62,7 +62,7 @@
 
                 </ul>
                 <!-- REQUEST WIN BUTTON -->
-                <button class="btn btn-success text-uppercase ml-md-3" data-toggle="modal" data-target="#winticketModal">Win Ticket</button>
+                <button class="btn btn-success text-uppercase ml-md-3 d-none d-lg-block " data-toggle="modal" data-target="#winticketModal">Win Ticket</button>
             </div>
         </nav>
         
@@ -90,7 +90,7 @@
 
 
             <!-- Static image replaces video on mobile devices, to save data usage -->
-            <div class="container-fluid p-0 m-0 d-lg-none">
+            <div class="container-fluid d-lg-none">
                 <div class="row p-0 m-0">
                     <div class="col-12 p-0 m-0">
                         <figure class="beer-mug-home" title="Beer festival Marley Park"></figure>
@@ -134,8 +134,8 @@
                 <div class="reasons-container">
 
                     <div class="reason-content">
-                        <div class="row reasons-row" id="reason-text">
-                            <div class="col-sm-6">
+                        <div class="row" id="reason-text">
+                            <div class="col">
                                 <h3 class="text-center">Let's Enjoy Nature</h3>
                                 <p class="text-reasons">Getting outside and enjoying the great outdoors is something most everyone loves. It simply makes people happy. Who doesn’t love breathing clean, fresh air, hearing the serene sounds of nature, and walking on a soft trail
                                     padded with trees? And who doesn’t need a break from technology – smartphones, computers, tablets, television, movies, internet, video games, and so on? Spending some time in nature can feel like a relief after staring
@@ -169,7 +169,7 @@
                             <!--        </ul>-->
 
                             <!--</div>-->
-                            <div class="col-sm-6">
+                            <div class="col">
                                 <h3 class="text-center">The Food Area</h3>
                                 <p class="text-reasons">
                                     Feel free to arrive with an appetite as not everything worth tasting here is liquid. Expect delicious bites from artisan producers all along the coast are making some of Europe’s best cheeses, craft brews and chocolates, with primary ingredients sourced
@@ -185,7 +185,7 @@
                 </div>
             </section>
             
-            <section id="beer-participants">
+            <section class="d-none d-lg-block" id="beer-participants ">
                 
                 <div class="row">
                         <div class="col-sm-1"></div>
@@ -326,7 +326,7 @@
             
             <!--PARTNERSHIP-->
 
-            <section id="partnership">
+            <section class="d-none d-lg-block "id="partnership">
                 <div>
                     <h1 class="text-center sponsors-header">INTERESTED IN PARTNERSHIP?</h1>
                 </div>
@@ -339,7 +339,10 @@
                             Let’s Host A Beer Festival Together! We create and promote successful beer tasting festivals in the Ireland. By following our own unique model called “BrewFest Success™,” we combine our knowledge of craft beer market trends with nearly 12years of event
                             ideation and management experience to create exciting, fun and profitable events.”
                         </h3>
+                        <div class="col-sm-12 text-center">
                         <button type="button" class="btn buy-button center-block" id="contact-button" data-toggle="modal" data-target="#contact">CONTACT</button>
+                        </div>
+                        
 
                     </div>
                 </div>
@@ -349,7 +352,7 @@
             
             <!--Quotes section-->
 
-            <section id="quotes">
+            <section class="d-none d-lg-block" id="quotes">
                 <div class="row">
                     <div class="col-12 ">
                         <h2 class="text-uppercase text-center">our happy festival guests say:</h2>
@@ -359,7 +362,7 @@
                 <div class="row face-row">
                     <div class="col-md-6">
                         <div class="media">
-                            <div class="d-none d-sm-block">
+                            <div>
                                 <img src="images/face2.jpg" alt="face2" class="rounded-circle mr-3" height=90 width=90>
                             </div>
                             <div class="media-body">
@@ -372,7 +375,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="media">
-                            <div class="d-none d-sm-block">
+                            <div>
                                 <img src="images/face1.jpg" alt="face1" class="rounded-circle mr-3" height=90 width=90>
                             </div>
                             <div class="media-body">
@@ -385,10 +388,10 @@
                     </div>
                 </div>
 
-                <div class="row face-row">
+                <div class="row face-row d-none d-lg-block">
                     <div class="col-md-6">
                         <div class="media">
-                            <div class="d-none d-sm-block">
+                            <div>
                                 <img src="images/face3.jpg" alt="face3" class="rounded-circle mr-3" height=90 width=90>
                             </div>
                             <div class="media-body">
@@ -401,7 +404,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="media">
-                            <div class="d-none d-sm-block">
+                            <div>
                                 <img src="images/face4.jpg" alt="face4" class="rounded-circle mr-3" height=90 width=90>
                             </div>
                             <div class="media-body">
@@ -418,7 +421,7 @@
             
             <!--SPONSORSHIP-->
 
-            <section id="sponsorship">
+            <section class="d-none d-lg-block" id="sponsorship">
                 <div>
                     <span class="text-center sponsors-header ">SPONSORS</span>
                 </div>
@@ -450,7 +453,7 @@
 
   <!--MODAL FOR WIN TICKET BUTTON-->
 
-            <section class="modals">
+            <section class="modals d-none d-lg-block">
                 <div class="modal-body">
                     <div class="modal" tabindex="-1" role="dialog" id="winticketModal">
                         <div class="modal-dialog" role="document">

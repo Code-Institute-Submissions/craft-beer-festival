@@ -4,6 +4,9 @@ body {
 
 /*NAVBAR*/
 
+nav {
+    min-height: 9%;
+}
 .navbar-toggler {
     margin-left: 290px
 }
@@ -18,9 +21,7 @@ body {
 
 .fixed-top {
     position: fixed;
-    background-color: #ead8573d;
-    height: 40px;
-
+    background-color: #f1e589;
 }
 
 /*LINKS*/
@@ -106,6 +107,7 @@ section {
     width: 100%;
     padding-bottom: 20px;
     text-align: center;
+    z-index: -1;
 }
 .header{
     padding-bottom: 30px;
@@ -178,6 +180,13 @@ section {
     background-color: #22bd22;
 
 }
+#contact-button{
+width: 160px;
+    height: 70px;
+    background-color: green;
+    color: white;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
 
 
 
@@ -185,10 +194,10 @@ section {
 
 .img-gallery {
     width: 80%;
-    height: 300px;
+    height: 60%;
     margin-bottom: 40px;
     transition: transform .7s;
-    margin-left: 0;
+    margin-left: 10%;
     margin-right: 0;
 }
 
@@ -252,9 +261,12 @@ section {
 
 #quotes {
     width: 100%;
-    background-color: #e8e8cd;
+    background-image: url("images/feedback.jpg");
+    opacity: 0.75;
 }
-
+.quotes-content {font-weight: bold;
+    color: #000000;
+}
 .face-row {
     margin-left: 40px;
 }
@@ -262,14 +274,17 @@ section {
 /*REASONS-CONTAINER*/
 
 .reasons-container {
-    background-image: url("images/art-beer.jpg"), url("art-beer.jpb");
+    background-image: url("images/art-beer.jpg");
     color: white;
 }
 
 #reason-text {
     color: white;
-    margin-left: 10px;
     margin-bottom: 40px;
+    word-break: break-word;;
+    padding-right: 3%;
+    padding-left: 3%;
+    text-align: center;
     
 }
 .text-reasons{
@@ -343,9 +358,9 @@ hr {
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #e8e8cd;
+    background-color: #f1e589;
+    padding-top: 7%;
 }
-
 
 
 .footer-container {
@@ -363,9 +378,6 @@ hr {
     text-align: center;
     background-color: #efef8d21;
 
-}
-.copyright{
-        padding-top: 25px;
 }
 
 .social-a{
@@ -462,6 +474,8 @@ span.price {
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+
+
 
 @media (max-width: 800px) {
     .row {
