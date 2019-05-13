@@ -5,8 +5,9 @@ body {
 /*NAVBAR*/
 
 nav {
-    min-height: 9%;
+    min-height: 9 %;
 }
+
 .navbar-toggler {
     margin-left: 290px
 }
@@ -21,7 +22,7 @@ nav {
 
 .fixed-top {
     position: fixed;
-    background-color: #f1e589;
+    background-color: #f2e47c;
 }
 
 /*LINKS*/
@@ -45,9 +46,10 @@ a:hover {
 
 
 /*HEADINGS*/
+
 .section-header {
-font-size: x-large;
-color: white;
+    font-size: x-large;
+    color: white;
 }
 
 .section-header {
@@ -71,7 +73,7 @@ color: white;
 }
 
 .gallery-heading {
-    background-image: url("images/hops-field.jpg" );
+    background-image: url("images/hops-field.jpg");
     font-size: x-large;
 }
 
@@ -96,22 +98,25 @@ section {
 }
 
 /* audio*/
-.audio{
-    
-}
+
+.audio {}
+
 .audio-content {
     position: relative;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: #00000038;
+    ;
     color: #f1f1f1;
     width: 100%;
     padding-bottom: 20px;
     text-align: center;
-    z-index: -1;
+    z-index: 1;
 }
-.header{
+
+.header {
     padding-bottom: 30px;
 }
+
 /* video*/
 
 .col1-video {
@@ -135,10 +140,13 @@ section {
 .section-youtube {
     padding-right: 40px;
 }
-.advert-row{
-    background-image: url("images/beer-lg.jpg" );
+
+.advert-row {
+    background-image: url("images/beer-lg.jpg");
     background-size: contain;
+
 }
+
 
 
 /* buttons*/
@@ -180,12 +188,14 @@ section {
     background-color: #22bd22;
 
 }
-#contact-button{
-width: 160px;
+
+#contact-button {
+    width: 160px;
     height: 70px;
     background-color: green;
     color: white;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-top: 40px;
 }
 
 
@@ -207,19 +217,21 @@ width: 160px;
     transition: transform .7s;
     margin-left: 0;
     margin-right: 0;
-    
+
 }
 
 
-.img-gallery:hover, .img-participants:hover {
+.img-gallery:hover,
+.img-participants:hover {
     -ms-transform: scale(1.2);
     /* IE 9 */
     -webkit-transform: scale(1.2);
     /* Safari 3-8 */
     transform: scale(1.2)
 }
-#gallery{
-    background-image: url("images/hops-field.jpg" );
+
+#gallery {
+    background-image: url("images/hops-field.jpg");
 }
 
 
@@ -255,6 +267,7 @@ width: 160px;
 .text-mobile {
     text-align: center;
     background-color: #f7e3543d;
+    margin-top: 25px;
 }
 
 /*QUOTES */
@@ -264,11 +277,21 @@ width: 160px;
     background-image: url("images/feedback.jpg");
     opacity: 0.75;
 }
-.quotes-content {font-weight: bold;
+
+.quotes-content {
+    font-weight: bold;
     color: #000000;
 }
+
 .face-row {
     margin-left: 40px;
+}
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
 }
 
 /*REASONS-CONTAINER*/
@@ -281,23 +304,28 @@ width: 160px;
 #reason-text {
     color: white;
     margin-bottom: 40px;
-    word-break: break-word;;
+    word-break: break-word;
+    ;
     padding-right: 3%;
     padding-left: 3%;
     text-align: center;
-    
+
 }
-.text-reasons{
+
+.text-reasons {
     font-size: 14pt;
 }
+
 .reasons-container ul {
     color: white;
 }
+
 .reasons-header {
     text-align: center;
     font-size: xx-large;
-    
+
 }
+
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -330,11 +358,14 @@ hr {
 
 .sponsors-header {
     text-align: center;
-    color: slategray;
+    color: #1b1c1d;
+    margin-left: 110px;
 }
 
 .section-header {
     text-align: center;
+    font-size: 22pt;
+    font-weight: bolder;
 
 }
 
@@ -359,13 +390,11 @@ hr {
     margin-right: auto;
     margin-left: auto;
     background-color: #f1e589;
-    padding-top: 7%;
+    padding-top: 3%;
 }
 
 
-.footer-container {
-    
-}
+.footer-container {}
 
 
 #footer-details {
@@ -380,9 +409,8 @@ hr {
 
 }
 
-.social-a{
-    
-}
+.social-a {}
+
 /* Style the button used to pause/play the video */
 
 /*------------ IMAGES ------------*/
@@ -474,8 +502,6 @@ span.price {
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
-
-
 
 @media (max-width: 800px) {
     .row {
