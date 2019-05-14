@@ -5,7 +5,11 @@ body {
 /*NAVBAR*/
 
 nav {
-    min-height: 9 %;
+    min-height: 7%;
+}
+.nav-link{
+    color: black;
+    font-weight: 500;
 }
 
 .navbar-toggler {
@@ -27,16 +31,12 @@ nav {
 
 /*LINKS*/
 
-a:link {
+.concert-links {
     color: lightblue;
     text-decoration: none;
 }
 
-a:visited {
-    color: green;
-}
-
-a:hover {
+.concert-links:hover {
     color: darkblue;
 }
 
@@ -48,8 +48,12 @@ a:hover {
 /*HEADINGS*/
 
 .section-header {
-    font-size: x-large;
-    color: white;
+font-size: x-large;
+color: white;
+}
+
+.venue-header{
+color:#1ba7d6;
 }
 
 .section-header {
@@ -74,7 +78,8 @@ a:hover {
 
 .gallery-heading {
     background-image: url("images/hops-field.jpg");
-    font-size: x-large;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 .heading-row {
@@ -84,6 +89,9 @@ a:hover {
 
 .gallery-heading {
     margin-bottom: 40px;
+}
+.header {
+    padding-bottom: 30px;
 }
 
 ul {
@@ -99,7 +107,7 @@ section {
 
 /* audio*/
 
-.audio {}
+
 
 .audio-content {
     position: relative;
@@ -113,9 +121,7 @@ section {
     z-index: 1;
 }
 
-.header {
-    padding-bottom: 30px;
-}
+
 
 /* video*/
 
@@ -204,7 +210,7 @@ section {
 
 .img-gallery {
     width: 80%;
-    height: 60%;
+    height: 80%;
     margin-bottom: 40px;
     transition: transform .7s;
     margin-left: 10%;
@@ -234,6 +240,17 @@ section {
     background-image: url("images/hops-field.jpg");
 }
 
+.your-tap {
+font-size: xx-large;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+.modal-content{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
 
 
 
@@ -275,7 +292,7 @@ section {
 #quotes {
     width: 100%;
     background-image: url("images/feedback.jpg");
-    opacity: 0.75;
+    padding-left: 20px;
 }
 
 .quotes-content {
@@ -286,12 +303,18 @@ section {
 .face-row {
     margin-left: 40px;
 }
+
 .blockquote {
     margin-bottom: 1rem;
     font-size: 1.25rem;
     color: black;
     font-weight: bolder;
     font-size: x-large;
+}
+.blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #008000;
 }
 
 /*REASONS-CONTAINER*/
@@ -390,11 +413,16 @@ hr {
     margin-right: auto;
     margin-left: auto;
     background-color: #f1e589;
-    padding-top: 3%;
+    padding-top: 4%;
+    margin-top: 60px;
+    background-image: url("images/venue.jpg");
+    color: white;
 }
 
 
-.footer-container {}
+.footer-container {
+    background-color: #f2e47c;
+}
 
 
 #footer-details {
