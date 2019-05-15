@@ -71,14 +71,14 @@
 
 
         <!-- Static image replaces video on mobile devices, to save data usage -->
-        <div class="container-fluid d-lg-none">
+        <div class="bg-image-container d-lg-none">
             <div class="row p-0 m-0">
                 <div class="col-12 p-0 m-0">
                     <figure class="beer-mug-home" title="Beer festival Marley Park"></figure>
                 </div>
-                <div class="container-fluid beer.mug">
-                    <div class="row">
-                        <div class="col-12 text-mobile text-black">
+                <div class="add-container text-center beer.mug">
+                    <div class="row container-fluid callout-row">
+                        <div class="col-md-12 text-mobile text-black">
                             <h1>Beer fest 22 June. Marley Park</h1>
                             <h3 class="fontchange-sm">Nature Has Arrived</h3>
                             <p>Enjoy your craft beer on a meadow</p>
@@ -180,25 +180,25 @@
 
         <!--GALLERY SECTION-->
 
-        <section id="gallery">
+        <section class="gallery-section"id="gallery">
             <p class="gallery-heading text-center">GALLERY</p>
 
-            <div class="row gallery-row">
-                <div class="col-sm-4 ">
+            <div class="row justify-content-center gallery-row">
+                <div class="col-sm-4">
                     <img src="images/beer-festival.jpg" class="d-block img-gallery" alt="beer-festival">
                 </div>
-                <div class="col-sm-4 ">
+                <div class="col-sm-4">
                     <img src="images/tap.jpg" class="d-block img-gallery" alt="tap">
                 </div>
-                <div class="col-sm-4 ">
+                <div class="col-sm-4">
                     <img src="images/men-drinking1.jpg" class="d-block img-gallery" alt="men-drinking1">
                 </div>
             </div>
             <div class="row gallery-row">
-                <div class="col-sm-4 ">
+                <div class="col-sm-4">
                     <img src="images/friends.jpg" class="d-block img-gallery" alt="friends">
                 </div>
-                <div class="col-sm-4 ">
+                <div class="col-sm-4">
                     <img src="images/cheers.jpg" class="d-block img-gallery" alt="cheers">
                 </div>
                 <div class="col-sm-4">
@@ -214,7 +214,7 @@
 
         <section id="video">
             <div class="video-heading container fluid">
-                <h1 class="text-uppercase text-center">Can't wait? See whats instore!</h1>
+                <h1 class="text-uppercase text-center">Can't wait to See whats in store?</h1>
 
             </div>
             <div class="row row1-video">
@@ -250,7 +250,7 @@
 
         <!--ABOUT VENUE MUSIC TICKETS-->
         <section id="tickets">
-            <div class="container-fluid" id="music-lineup-heading">
+            <div class="container-fluid venue-container" id="music-lineup-heading">
                 <h1 class="text-uppercase text-center venue-header">MUSIC LINE UP 2019</h1>
                 <h3 class="text-uppercase text-center venue-header">Friday June 21st</h3>
                 <h2 class="text-uppercase text-center">6pm DJ SCOTT // 8pm <a href="https://www.arminvanbuuren.com/biography/" target="_blank" class="concert-links"> Armin Van Buuren </a></h2>
@@ -305,13 +305,13 @@
 
         <!--Feedback section-->
         
-        <h2 class="text-uppercase text-center">our happy festival guests say:</h2>
+        <h2 class="text-uppercase text-center d-none d-lg-block">our happy festival guests say:</h2>
         <section class="d-none d-lg-block" id="quotes">
-            <div class="row">
-                <div class="col-12 ">
-                    <!--r />-->
-                </div>
-            </div>
+            <!--<div class="row feedback-row">-->
+                <!--<div class="col-12 ">-->
+                    
+                <!--</div>-->
+            <!--</div>-->
             <div class="row face-row">
                 <div class="col-md-6">
                     <div class="media">
@@ -320,7 +320,7 @@
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>Never knew it's so easy. Will never visit OFF LICENCE again. <i class="fas fa-thumbs-up"></i> Thank You.</p>
+                                <p> Fantastic venue WOOOW. We had so much fun and great beer. <i class="fas fa-thumbs-up"></i> Thank You.</p>
                                 <footer class="blockquote-footer">Bob Conor on <cite title="Twitter">Snapchap</cite></footer>
                             </blockquote>
                         </div>
@@ -333,7 +333,7 @@
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>I would have done it for a long time, if I knew how easy it is.<i class="fas fa-thumbs-up"> Thanks</i></p>
+                                <p>Amazing time, amazing people, amazing selection of craft beers.<i class="fas fa-thumbs-up"> Thanks</i></p>
                                 <footer class="blockquote-footer">Micheal Owen on <cite title="Google">Instagram</cite></footer>
                             </blockquote>
                         </div>
@@ -349,7 +349,7 @@
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>Never knew it's so easy. Will never visit OFF LICENCE again. <i class="fas fa-thumbs-up"></i> Thank You.</p>
+                                <p>It's a MUST for beer lovers. Can't miss it. <i class="fas fa-thumbs-up"></i> Thank You.</p>
                                 <footer class="blockquote-footer">Joe Martin on <cite title="Twitter">Twitter</cite></footer>
                             </blockquote>
                         </div>
@@ -362,7 +362,7 @@
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>I would have done it for a long time, if I knew how easy it is.<i class="fas fa-thumbs-up"> Thanks</i></p>
+                                <p>A big thanks to organizers. Well done, you know how to make great venue.<i class="fas fa-thumbs-up"> Thanks</i></p>
                                 <footer class="blockquote-footer">Lukas Simko on <cite title="Google">Google</cite></footer>
                             </blockquote>
                         </div>
@@ -465,8 +465,8 @@
                                         <div class="row">
                                             <div class="col-50">
                                                 <h3>Billing Address</h3>
-                                                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                                                <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                                                <label for="sname"><i class="fa fa-user"></i> Full Name</label>
+                                                <input type="text" id="sname" name="firstname" placeholder="John M. Doe">
                                                 <label for="email"><i class="fa fa-envelope"></i> Email</label>
                                                 <input type="text" id="email" name="email" placeholder="john@example.com">
                                                 <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
@@ -591,7 +591,7 @@
         <!--FOOTER-->
 
         <footer class="footer-container">
-            <div id="footer-details" class="row">
+            <div id="footer-details" class="footer-row">
                 <div class="col-sm-4 copyright">
                     <h5></h5>
                     <p class="inline-block">

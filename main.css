@@ -5,7 +5,7 @@ body {
 /*NAVBAR*/
 
 nav {
-    min-height: 7%;
+    min-height:9.5%;
 }
 .nav-link{
     color: black;
@@ -42,6 +42,13 @@ nav {
 
 .text-reasons {
     font-weight: bold;
+}
+.callout-row{
+    width: 100%;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    
 }
 
 
@@ -239,6 +246,9 @@ section {
 #gallery {
     background-image: url("images/hops-field.jpg");
 }
+.gallery-row{
+    
+}
 
 .your-tap {
 font-size: xx-large;
@@ -286,6 +296,9 @@ margin-bottom: 30px;
     background-color: #f7e3543d;
     margin-top: 25px;
 }
+.add-container{
+margin-top: 40px;
+}
 
 /*QUOTES */
 
@@ -315,6 +328,9 @@ margin-bottom: 30px;
     display: block;
     font-size: 80%;
     color: #008000;
+}
+.feedback-row{
+    
 }
 
 /*REASONS-CONTAINER*/
@@ -406,7 +422,7 @@ hr {
 
 /*------------ FOOTER ------------*/
 
-.container-fluid {
+.venue-container {
     width: 100%;
     padding-right: 0px;
     padding-left: 0px;
@@ -436,6 +452,9 @@ hr {
     background-color: #efef8d21;
 
 }
+.footer-row{
+    
+}
 
 .social-a {}
 
@@ -452,15 +471,15 @@ hr {
 
 /*BUY TICKET MODAL*/
 
-.row {
-    display: -ms-flexbox;
-    /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap;
-    /* IE10 */
-    flex-wrap: wrap;
-    margin: 0 -16px;
-}
+/*.row {*/
+/*    display: -ms-flexbox;*/
+/*     IE10 */
+/*    display: flex;*/
+/*    -ms-flex-wrap: wrap;*/
+/*     IE10 */
+/*    flex-wrap: wrap;*/
+    /*margin: 0 -16px;*/
+/*}*/
 
 .col-25 {
     -ms-flex: 25%;
