@@ -5,9 +5,10 @@ body {
 /*NAVBAR*/
 
 nav {
-    min-height:9.5%;
+    min-height: 9.5%;
 }
-.nav-link{
+
+.nav-link {
     color: black;
     font-weight: 500;
 }
@@ -27,6 +28,8 @@ nav {
 .fixed-top {
     position: fixed;
     background-color: #f2e47c;
+    /*margin-right: 15px;*/
+    /*margin-left: 4px;*/
 }
 
 /*LINKS*/
@@ -43,24 +46,25 @@ nav {
 .text-reasons {
     font-weight: bold;
 }
-.callout-row{
+
+.callout-row {
     width: 100%;
     margin: auto;
     padding-left: 0;
     padding-right: 0;
-    
+
 }
 
 
 /*HEADINGS*/
 
 .section-header {
-font-size: x-large;
-color: white;
+    font-size: x-large;
+    color: white;
 }
 
-.venue-header{
-color:#1ba7d6;
+.venue-header {
+    color: #1ba7d6;
 }
 
 .section-header {
@@ -85,6 +89,7 @@ color:#1ba7d6;
 
 .gallery-heading {
     background-image: url("images/hops-field.jpg");
+    background-repeat: no-repeat;
     font-size: xx-large;
     font-weight: bold;
 }
@@ -97,6 +102,7 @@ color:#1ba7d6;
 .gallery-heading {
     margin-bottom: 40px;
 }
+
 .header {
     padding-bottom: 30px;
 }
@@ -113,8 +119,6 @@ section {
 }
 
 /* audio*/
-
-
 
 .audio-content {
     position: relative;
@@ -155,8 +159,10 @@ section {
 }
 
 .advert-row {
-    background-image: url("images/beer-lg.jpg");
+    background-image: url("images/two-bottles.jpg");
     background-size: contain;
+    background-repeat: no-repeat;
+    
 
 }
 
@@ -246,17 +252,16 @@ section {
 #gallery {
     background-image: url("images/hops-field.jpg");
 }
-.gallery-row{
-    
-}
+
+.gallery-row {}
 
 .your-tap {
-font-size: xx-large;
-font-weight: bold;
-margin-bottom: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-.modal-content{
+.modal-content {
     padding-left: 20px;
     padding-bottom: 10px;
     padding-right: 20px;
@@ -296,8 +301,11 @@ margin-bottom: 30px;
     background-color: #f7e3543d;
     margin-top: 25px;
 }
-.add-container{
-margin-top: 40px;
+
+.add-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
 }
 
 /*QUOTES */
@@ -315,6 +323,7 @@ margin-top: 40px;
 
 .face-row {
     margin-left: 40px;
+    padding-top: 20px;
 }
 
 .blockquote {
@@ -324,14 +333,14 @@ margin-top: 40px;
     font-weight: bolder;
     font-size: x-large;
 }
+
 .blockquote-footer {
     display: block;
     font-size: 80%;
     color: #008000;
 }
-.feedback-row{
-    
-}
+
+.feedback-row {}
 
 /*REASONS-CONTAINER*/
 
@@ -391,6 +400,9 @@ hr {
     width: 100%;
     height: 320px;
 
+}
+.partnership-heading{
+    text-align: center;
 }
 
 /*------------ HEADER ------------*/
@@ -452,9 +464,8 @@ hr {
     background-color: #efef8d21;
 
 }
-.footer-row{
-    
-}
+
+.footer-row {}
 
 .social-a {}
 
@@ -471,15 +482,7 @@ hr {
 
 /*BUY TICKET MODAL*/
 
-/*.row {*/
-/*    display: -ms-flexbox;*/
-/*     IE10 */
-/*    display: flex;*/
-/*    -ms-flex-wrap: wrap;*/
-/*     IE10 */
-/*    flex-wrap: wrap;*/
-    /*margin: 0 -16px;*/
-/*}*/
+
 
 .col-25 {
     -ms-flex: 25%;
@@ -548,17 +551,7 @@ span.price {
     color: grey;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
-
-@media (max-width: 800px) {
-    .row {
-        flex-direction: column-reverse;
-    }
-    .col-25 {
-        margin-bottom: 20px;
-    }
-}
-
+-
 /* Style inputs for contact modal*/
 
 * {
