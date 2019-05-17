@@ -1,12 +1,22 @@
 
-# Craft Beer Festival
-[View website in GitHub Pages](https://github.com/tomciosegal/craft-beer-festival)
+#                                       Craft Beer Festival
+                [View website in GitHub Pages](https://github.com/tomciosegal/craft-beer-festival)
+
+A one page scrolldwon website built to promote a beer festival taking place in at Marlay Park Dublin, Ireland.
+Website features a promotional background video (sound on request for better sensation), in navbar :
+about, craft beeer 2019, Photo, Where?, Contact, WIN BUTTON. Clicking on these options will take you directly
+to the info you are looking for making website very easy to navigate. Navbar is fixed so you can go to any
+place of website at antime by simple click of a button.
+Developer wanted to make viewer feel that participaiting in that event is a must. 
+The goal was to:
+*attract viewer with an impulse of sound and motion,so you can feel the nature
+*help imagine how does it feel to be out there:feel free, relaxed, enjoy fresh air,
+not nessesary to drink several pints of beer and go home. 
+*make it availible for wider group of people not only beer lovers but also for someone 
+who is tired after all week and would like to chill, eat some 
+lovely food, listen to the music, feel and smell nature not only beer.
 
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
- 
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
