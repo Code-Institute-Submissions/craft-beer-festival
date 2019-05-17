@@ -138,11 +138,17 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Technologies Used
+This project uses HTML and CSS programming languages.
+- [Cloud9](https://aws.amazon.com/cloud9/?origin=c9io) - This developer used Cloud9 for their IDE while building the website.
+- [BootstrapCDN](https://www.bootstrapcdn.com/)
+    - The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily.
+    - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [Google Fonts](https://fonts.google.com/)
+The project uses Google fonts to style the website fonts.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+ - [jQuery]( https://jquery.com/)
+The project uses jQuery to reference Javascript needed for the responsive navbar, contact-buy-win button modal.
 
 
 ## Testing
