@@ -1,6 +1,6 @@
 
 # Craft Beer Festival
-[View website in GitHub Pages](https://github.com/tomciosegal/craft-beer-festival")
+[View website in GitHub Pages](https://github.com/tomciosegal/craft-beer-festival)
 
 
 One or two paragraphs providing an overview of your project.
