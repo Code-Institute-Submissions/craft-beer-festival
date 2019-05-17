@@ -39,7 +39,7 @@ Targeted Viewer is:
 This website is the best way to help them achieve these things because:
 
 - most festival website focus on party drinks rather then having fun and great time
-- other websites"hit" you imidiately with poud musicand fast changing background
+- other websites "hit" you imidiately with loud music and fast changing background
 
 This website is:
 - very easy and quick to navigate.
@@ -50,24 +50,72 @@ This website is:
 
 Visitors looking to:
 
-As a new visitor to the website, I want to easily navigate the site,where I can find all info eficientelly.
-As a potential participant, I need an easy way to buy ticket, where is the venue, opening times
-As a new visitor to the website, I want learn more about the artist, so I can feel I connect with her as a person.
-As a potential client, I want to know what past clients thought of their artwork and the service they received.
-As a potential client, I want to view expected prices for a portrait, so I can decide if it is within my budget to order.
-As an interested client, I want to understand the ordering process, so I know what steps to take next.
-As an interested client, I want an easy to fill in contact form, so I can make contact with the artist and place my order.
-As an interested observer and/or potential client, I want to follow the artist on social media, so I can keep up with her latest news.
-As a returning visitor to the website, who has already decided to contact the artist, I want to be able to find the request a quote page easily
+- As a new visitor to the website, I want to easily navigate the site,where I can find all info eficientelly.
+- As a potential participant, I need an easy way to buy ticket, where is the venue, opening times,how to get there.
+- As a new visitor to the website, I want learn more about the past festivals.
+- As a potential participant, I want to know what past visitors thought of your previous venues.
+- As an interested visitor, I want an easy to fill in contact form, so I can make contact with organisers.
+- As an interested observer, I want to follow the venue on social media, so I can keep up with latest news.
+- As a returning visitor to the website, who has already decided to join the venue I want to be able to find Buy Ticket easily.
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Wireframe mockups:
+-
+-
+-
+-
+-
+-
 
 ## Features
+
+Page features a responsive fixed navigation bar and a highlighted "win ticket" button in the top right. 
+
+##### Home
+The Home page features a special "man" video for large screens. On mobile and tablet devices a full screen 
+static image is seen. On desktops this is replaced with a promotional video, which autoplays on mute or 
+sound on request button. The purpose of this hero image/video element is to give maximum impact on arriving at the website, 
+while not using up people's data unnecessarily on mobile and tablet devices.
+
+The home page promotional video hosted by Pixabay, engages the user and tells them "you can't miss this venue.
+
+##### About
+The About page features beer-art image hosted by Pixabay.The about page also includes some brief info 
+about upcoming venue like:
+- Date
+- Times
+- Location
+
+Straith after that good few reasons why you should join us, telling intrested visitor what you can find
+there apart from a wide selection of beers.
+
+Enough information to satisfy curiosity without overwhelming the user.
+
+
+#### Gallery
+The Gallery page is laid out in 2 rows of 3 columns each to fit images for large and medium screens 
+and 1 column wide for mobile devices.
+
+The zoom in image for large screens enables viever to see closer look without opening seprate window.
+
+Pricing
+The pricing page features two tables, which list example sizes of artwork and guideline prices. One table for drawings and a second one for paintings. The tables are displayed next to each other on desktop and tablet, and stacked on top of each other for mobiles.
+
+Below the tables some small print briefly explains why the prices given are guideline only and encourages the user to request a quote for their own custom order.
+
+At the bottom of the page the call to action button guides the user to learn How to Order.
+
+How to Order
+The How to Order page features the 5 numbered steps involved in ordering a custom artwork. Each step features a large, obvious icon, and a brief learnable explanation of the step.
+
+Below the order timeline the user is informed how long their order is likely to take to be completed, one timescale each for drawings and paintings.
+
+At the bottom of the page the call to action button guides the user to Request a Quote and they are taken to the Contact page.
+
+Contact
+The Contact page features a contact form, which requests client name and email, provides a place to upload a photograph, and below that a box to leave a message. At the bottom of the form clients can upload photograph(s) they want the artist to use.
+
+The bottom of the form contains a Send Butto
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
