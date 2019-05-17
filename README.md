@@ -72,7 +72,7 @@ Wireframe mockups:
 Page features a responsive fixed navigation bar and a highlighted "win ticket" button in the top right. 
 
 ##### Home
-The Home page features a special "man" video for large screens. On mobile and tablet devices a full screen 
+The Home section features a special "man" video for large screens. On mobile and tablet devices a full screen 
 static image is seen. On desktops this is replaced with a promotional video, which autoplays on mute or 
 sound on request button. The purpose of this hero image/video element is to give maximum impact on arriving at the website, 
 while not using up people's data unnecessarily on mobile and tablet devices.
@@ -80,7 +80,7 @@ while not using up people's data unnecessarily on mobile and tablet devices.
 The home page promotional video hosted by Pixabay, engages the user and tells them "you can't miss this venue.
 
 ##### About
-The About page features beer-art image hosted by Pixabay.The about page also includes some brief info 
+The About section features beer-art image hosted by Pixabay.The about page also includes some brief info 
 about upcoming venue like:
 - Date
 - Times
@@ -88,40 +88,47 @@ about upcoming venue like:
 
 Straith after that good few reasons why you should join us, telling intrested visitor what you can find
 there apart from a wide selection of beers.
+When u scrol further down you will see who will be hosting the venue this year. When you click
+on the logo you will be directed to a new window with and actual beer producer. 
+This section is visible for large screen users only.
 
 Enough information to satisfy curiosity without overwhelming the user.
 
 
 #### Gallery
-The Gallery page is laid out in 2 rows of 3 columns each to fit images for large and medium screens 
+The Gallery section is laid out in 2 rows of 3 columns for large and medium screens 
 and 1 column wide for mobile devices.
 
 The zoom in image for large screens enables viever to see closer look without opening seprate window.
 
-Pricing
-The pricing page features two tables, which list example sizes of artwork and guideline prices. One table for drawings and a second one for paintings. The tables are displayed next to each other on desktop and tablet, and stacked on top of each other for mobiles.
+#### Video
+The Video section is laid out in 2 rows of 2 columns for large and medium screens 
+and 1 column wide for mobile devices.
 
-Below the tables some small print briefly explains why the prices given are guideline only and encourages the user to request a quote for their own custom order.
+#### Craft Beer 2019
+In this section you will find a pure essence of the actaul event. You will find out about the music line up,
+who and when and what time is performing. Most importanly you will be able to buy ticket by simply clicking
+on responsive "buy button".In the form visitor will be asked to provide card details address name. Buttons "save changes"
+and continue to checkout are disabled.
 
-At the bottom of the page the call to action button guides the user to learn How to Order.
+#### Contact
+The Contact section features a responsive contact button which opens form, where  visitors are asked about name and email, and below that a box to leave a message. 
+Phone number for imidiate contact  on top of the window. Here you can also ask questions about partnership in our event
+The bottom of the form contains a Submitand Save Changes Button (disabled) plus Close Button.
 
-How to Order
-The How to Order page features the 5 numbered steps involved in ordering a custom artwork. Each step features a large, obvious icon, and a brief learnable explanation of the step.
+#### Feedback & Sponsors
+In this section you can read some feedbacks of people who joined us in prevoius years. Under feedbacks
+developer listed sponsors logos of this year event.
 
-Below the order timeline the user is informed how long their order is likely to take to be completed, one timescale each for drawings and paintings.
-
-At the bottom of the page the call to action button guides the user to Request a Quote and they are taken to the Contact page.
-
-Contact
-The Contact page features a contact form, which requests client name and email, provides a place to upload a photograph, and below that a box to leave a message. At the bottom of the form clients can upload photograph(s) they want the artist to use.
-
-The bottom of the form contains a Send Butto
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+#### Footer
+This section contains copyrights, downloadable version of usefull info in PDF and social media icons
+linking to 3 organisers media pages.
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Win button alows visitors to recive a free admition
+- Buy Ticket button enables visitors to make quick payement to get ticket
+- Social media icons will take to an actual social media websites
+- "Can you see your tap" section linked to actaul beer prodcers
+
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
