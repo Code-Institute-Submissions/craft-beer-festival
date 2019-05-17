@@ -1,23 +1,64 @@
 
-#                                       Craft Beer Festival
-                [View website in GitHub Pages](https://github.com/tomciosegal/craft-beer-festival)
+# Craft Beer Festival
+[View website in GitHub Pages](https://github.com/tomciosegal/craft-beer-festival)
 
-A one page scrolldwon website built to promote a beer festival taking place in at Marlay Park Dublin, Ireland.
+A one page scrolldwon website built to promote a beer festival taking place in Marlay Park Dublin, Ireland.
 Website features a promotional background video (sound on request for better sensation), in navbar :
 about, craft beeer 2019, Photo, Where?, Contact, WIN BUTTON. Clicking on these options will take you directly
 to the info you are looking for making website very easy to navigate. Navbar is fixed so you can go to any
 place of website at antime by simple click of a button.
-Developer wanted to make viewer feel that participaiting in that event is a must. 
+Developer wanted to make viewer feel that participaiting in that event is a must.  
+
 The goal was to:
-*attract viewer with an impulse of sound and motion,so you can feel the nature
-*help imagine how does it feel to be out there:feel free, relaxed, enjoy fresh air,
+- attract viewer with an impulse of sound and motion,so you can feel the nature
+- help imagine how does it feel to be out there:feel free, relaxed, enjoy fresh air,
 not nessesary to drink several pints of beer and go home. 
-*make it availible for wider group of people not only beer lovers but also for someone 
+- make it availible for wider group of people not only beer lovers, but also for someone 
 who is tired after all week and would like to chill, eat some 
 lovely food, listen to the music, feel and smell nature not only beer.
+- make it alternative to a crowded pubs
 
 
 ## UX
+Type of targeted viewer
+
+Targeted Viewer is:
+- Age above 18.
+- Loves beer and good food.
+- Has disposable income.
+- Loves to spend time outside.
+- Can bring some friends along.
+
+
+###### Visitors to this website are searching for:
+- food and beer festival
+- music festival
+- open air venue
+
+
+This website is the best way to help them achieve these things because:
+
+- most festival website focus on party drinks rather then having fun and great time
+- other websites"hit" you imidiately with poud musicand fast changing background
+
+This website is:
+- very easy and quick to navigate.
+- steps the visitor through easy to find and clear information
+- very clear straithforward content "where" "what" "who"
+- easy guaidence thru the website
+
+
+Visitors looking to:
+
+As a new visitor to the website, I want to easily navigate the site,where I can find all info eficientelly.
+As a potential participant, I need an easy way to buy ticket, where is the venue, opening times
+As a new visitor to the website, I want learn more about the artist, so I can feel I connect with her as a person.
+As a potential client, I want to know what past clients thought of their artwork and the service they received.
+As a potential client, I want to view expected prices for a portrait, so I can decide if it is within my budget to order.
+As an interested client, I want to understand the ordering process, so I know what steps to take next.
+As an interested client, I want an easy to fill in contact form, so I can make contact with the artist and place my order.
+As an interested observer and/or potential client, I want to follow the artist on social media, so I can keep up with her latest news.
+As a returning visitor to the website, who has already decided to contact the artist, I want to be able to find the request a quote page easily
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
