@@ -1,6 +1,5 @@
 
 # Craft Beer Festival
-[View website in GitHub Pages](https://github.com/tomciosegal/craft-beer-festival)
 
 A one page scrolldwon website built to promote a beer festival taking place in Marlay Park Dublin, Ireland.
 Website features a promotional background video (sound on request for better sensation), in navbar :
@@ -180,8 +179,28 @@ enabled Github Pages for it. There is only one branch, master. URL of Home Page 
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+The photos used in this site were obtained from 
+-  [Pixabay](https://pixabay.com/) 
+-  [Unsplashfoto](https://unsplash.com/)
+-  [Pexels](https://www.pexels.com/)
+
+The Videos used in this site were obtained from:
+- [Youtube](https://www.youtube.com/)
+- [Pixabay](https://pixabay.com/)
+
+
 
 ### Acknowledgements
+I have availed of many resources around the web to help me learn. The following is 
+far from a complete list, but it covers those which were most important for me.
 
-- I received inspiration for this project from X
+- [Stack Overflow](https://stackoverflow.com/users/5656369/john)
+- [W3schools](https://www.w3schools.com/)
+- [CSS_TRICKS](https://css-tricks.com/)
+- [Rachel Andrew's tutorials](https://www.rachelandrew.co.uk/)
+- The code-institute-room at [Slack](https://slack.com/intl/en-ie/)
+- [Codedrops](https://tympanus.net/codrops/)
+- [Awwwards](https://www.awwwards.com/)
+
+I received inspiration for this project from Dublin [beer festival](https://www.irishcraftbeerfestival.ie/).
+I wanted to see how would I recommend that festival to already existing website.
