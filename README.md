@@ -59,14 +59,6 @@ Visitors looking to:
 - As a returning visitor to the website, who has already decided to join the venue I want to be able to find Buy Ticket easily.
  
 
-Wireframe mockups:
--
--
--
--
--
--
-
 ## Features
 
 Page features a responsive fixed navigation bar and a highlighted "win ticket" button in the top right. 
@@ -135,11 +127,21 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- GDPR compliant pop-up screen. Ensures the all data are stored safe and 
+complies with the EU data protection law. - Javascript Needed.
+
+- Add CAPTCHA to contact form - Allows to protect vistors from the spam after 
+sending contact form. - Javascript Needed
+
+- contact form, win button, buy button, change from Send to Processing and then when complete 
+changes to Sent. - Javascript Needed
+
+- gallery images to pop-up on click- Javascript Needed
+- video gallery to pop-up on click - Javascript Needed
+- interactive map to pop-up on click -Javascript Needed
 
 ## Technologies Used
 This project uses HTML and CSS programming languages.
-- [Cloud9](https://aws.amazon.com/cloud9/?origin=c9io) - This developer used Cloud9 for their IDE while building the website.
 - [BootstrapCDN](https://www.bootstrapcdn.com/)
     - The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily.
     - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
@@ -153,42 +155,26 @@ The project uses jQuery to reference Javascript needed for the responsive navbar
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing 
-to legitimately believe that the site works well. Essentially, in this part you will want 
-to go over all of your user stories from the UX section and ensure that they all work as 
-intended, with the project providing an easy and straightforward way for the users to 
-achieve their goals.
+It tested continually as I developed it, in Firefox Developer and Chrome, 
+using both Firefox and Chromium developer tools, and nearing the conclusion of 
+the project also on other physical devices. Also before deployment i checked also in
+Opera and Safari.
+I used responsive mode in the dev tools and resizing the viewport to find unwanted 
+behaviour so as to correct it. I also periodically checked the appearance on both my 
+phone and tablet (both Android) in Chrome. 
+I contiually tested code in the [W3C HTML Validator](https://validator.w3.org/)
+in order to get rid of errors. 
+Testing my CSS in the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) revealed few errors that I cloud indentify and fix. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide 
-a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project was developed using the Cloud9 IDE, committed to git and pushed to GitHub using the built in function within cloud9.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/tomciosegal/craft-beer-festival)
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-
-## Credits
+I pushed my local git repo of code, images and media to a Github repository, and 
+enabled Github Pages for it. There is only one branch, master. URL of Home Page is  [here]( https://tomciosegal.github.io/craft-beer-festival/)  https://tomciosegal.github.io/craft-beer-festival/ 
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
