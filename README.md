@@ -176,7 +176,9 @@ I pushed my local git repo of code, images and media to a Github repository, and
 enabled Github Pages for it. There is only one branch, master. URL of Home Page is  [here]( https://tomciosegal.github.io/craft-beer-festival/)  https://tomciosegal.github.io/craft-beer-festival/ 
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for "about" section copied from the [Dublin Beer Festival](https://www.irishcraftbeerfestival.ie/)
+- The text for "why you should care" section copied from the [big grill festival](https://www.biggrillfestival.com/)
+- The text for "partnership section copied from the  [brew fest partners](https://brewfestpartners.com/)
 
 ### Media
 The photos used in this site were obtained from 
