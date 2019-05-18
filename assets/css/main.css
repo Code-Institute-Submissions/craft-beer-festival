@@ -70,6 +70,12 @@ nav {
 .header {
     padding-bottom: 0px
 }
+.tickets-header{
+    word-spacing: 20px;
+}
+.partnership-heading{
+    margin-left: 20px;
+}
 
 .venue-header {
     color: white;
@@ -159,7 +165,7 @@ section {
 }
 
 .row1-video {
-    margin-bottom: 120px;
+    margin-bottom: 0px;
     margin-top: 20px;
 }
 
@@ -508,8 +514,10 @@ hr {
 .concert-location {
     color: lightblue;
     text-decoration: none;
-    margin-left: 360px;
-    padding-left: 210px;
+    text-align: center;
+    /*margin-left: 360px;*/
+    /*padding-left: 210px;*/
+    
 }
 
 
