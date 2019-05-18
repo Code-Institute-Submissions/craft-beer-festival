@@ -31,6 +31,20 @@ nav {
     min-height: 40px;
 }
 
+.callout-paragraph {
+    color: white;
+}
+
+.callout-row {
+    /*margin-left: 0px;*/
+    /*margin-right: 0px*/
+    background-image: url("images/two-bottles.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
 /*LINKS*/
 
 .concert-links {
@@ -39,7 +53,7 @@ nav {
 }
 
 .concert-links:hover {
-    color: darkblue;
+    color: white;
 }
 
 .text-reasons {
@@ -57,13 +71,17 @@ nav {
 
 /*HEADINGS*/
 
+.header {
+    padding-bottom: 0px
+}
+
 .section-header {
     font-size: x-large;
     color: white;
 }
 
 .venue-header {
-    color: #1ba7d6;
+    color: white;
 }
 
 .section-header {
@@ -86,8 +104,14 @@ nav {
 
 }
 
+.reason-content {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.99;
+    background: #00000057;
+
+}
+
 .gallery-heading {
-    background-image: url("images/hops-field.jpg");
     background-repeat: no-repeat;
     font-size: xx-large;
     font-weight: bold;
@@ -153,14 +177,17 @@ section {
     width: 100%;
 }
 
+#video {}
+
+
 .section-youtube {
     padding-right: 40px;
 }
 
 .advert-row {
-    background-image: url("images/two-bottles.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
+    background: #00000061;
+
 
 
 }
@@ -248,9 +275,7 @@ section {
     transform: scale(1.2)
 }
 
-#gallery {
-    background-image: url("images/hops-field.jpg");
-}
+
 
 .gallery-row {}
 
@@ -312,13 +337,24 @@ section {
 #quotes {
     width: 100%;
     background-image: url("images/feedback.jpg");
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 .quotes-content {
     font-weight: bold;
     color: #000000;
 }
+
+.feedback-wrapper {
+    background-color: black;
+    opacity: 0.;
+    background: #00000061;
+}
+
+.feedback-paragraph {
+    color: whitesmoke;
+}
+
 
 .face-row {
     margin-left: 40px;
@@ -336,7 +372,7 @@ section {
 .blockquote-footer {
     display: block;
     font-size: 80%;
-    color: #008000;
+    color: #f5f5dc;
 }
 
 .feedback-row {}
@@ -391,6 +427,9 @@ hr {
     margin-top: 40px;
 
 }
+.sponor-logo {
+    width: 50%;
+}
 
 
 /*------------ PARTNERSHIP ------------*/
@@ -423,16 +462,9 @@ hr {
 #music-lineup-heading {
     letter-spacing: 3px;
 }
-
-
-
-/*------------ LOGO ------------*/
-
-.sponor-logo {
-    width: 50%;
+.header{
+    color: #0e0e0e;
 }
-
-/*------------ FOOTER ------------*/
 
 .venue-container {
     width: 100%;
@@ -448,6 +480,16 @@ hr {
     background-position: 0%;
 }
 
+.venue-wrapper {
+    background-color: black;
+    
+    background: #00000061;
+}
+
+
+
+
+/*------------ FOOTER ------------*/
 
 .footer-container {
     background-color: #f2e47c;
@@ -550,7 +592,7 @@ span.price {
     color: grey;
 }
 
--
+
 /* Style inputs for contact modal*/
 
 * {

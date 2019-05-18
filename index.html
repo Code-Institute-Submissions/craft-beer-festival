@@ -12,7 +12,7 @@
         <title>Craft Beer Festival</title>
     </head>
 
-    <body class="px-1">
+    <body>
 
         <nav class="navbar navbar-expand-lg fixed-top navbar-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
                 <button class="btn btn-success text-uppercase ml-md-3 d-none d-lg-block " data-toggle="modal" data-target="#winticketModal">Win Ticket</button>
             </div>
         </nav>
-
+    <main class="px-1">
         <!-- The video -->
         <div class="d-none d-lg-block">
             <video autoplay muted loop id="myVideo">
@@ -95,14 +95,23 @@
 
         <!--Section-->
         <section id="about">
-            <div class="row">
+            
+            <div class="row callout-row">
                 <div class="col-sm-12 advert-row">
-
-                    <p class="section-header text-center d-none d-lg-block">
-                        YOUR FAVOURITE IRISH CRAFT BEER FESTIVAL IS BACK BUT..... <br> A LITTLE BIT DIFFERENT THAN BEFORE INTERNATIONAL STARS MIXED <br> WITH LOCAL HEROES BRINGING FESTIVAL TO DUBLIN FOR A THE FIRST<br> FESTIVAL OF THE SEASON 2019. 21st
-                        & 22nd June 2019 @ MARLAY PARK. Festival is open from <br>4pm-11pm on Friday and <br>from 2pm-11.30pm on Saturday! <br> Last entry 9pm each night!
-                    </p>
-                </div>
+                    <div class="paragraph-wrapper container-fluid">
+                    <h2 class="section-header text-center d-none d-lg-block">
+                        YOUR FAVOURITE IRISH CRAFT BEER FESTIVAL IS BACK BUT..... 
+                    </h2>
+                    
+                        <p class="callout-paragraph text-center"> A Little Bit Different Than Before International 
+                            Stars Mixed<br> With Local Heroes Bringing Festival 
+                            To DUBLIN For The First<br> Festival Of THE SEASON 2019.<br> 
+                            21st & 22nd June 2019 @ MARLAY PARK. Festival is open from <br>
+                            4pm-11pm on Friday and <br>from 2pm-11.30pm on Saturday
+                            br> Last entry 9pm each night!
+                        </p>
+                    </div>
+            </div>
             </div>
             <!--Article-->
             <hr>
@@ -121,7 +130,7 @@
                                 deck chair, umbrella and enjoy freedom with your favorite craft beer.Does it sound good? So don't think twice</p>
                         </div>
 
-                        <div class="col-sm-12 col-lg-6">
+                        <div class="col-sm-12 col-lg-6 reason-content">
                             <h3 class="text-center">The Food Area</h3>
                             <p class="text-reasons">
                                 Feel free to arrive with an appetite as not everything worth tasting here is liquid. Expect delicious bites from artisan producers all along the coast are making some of Europe’s best cheeses, craft brews and chocolates, with primary ingredients sourced
@@ -181,7 +190,7 @@
 
         <!--GALLERY SECTION-->
 
-        <section class="gallery-section"id="gallery">
+        <section class="gallery-section" id="gallery">
             <p class="gallery-heading text-center">GALLERY</p>
 
             <div class="row justify-content-center gallery-row">
@@ -220,10 +229,10 @@
             </div>
             <div class="row row1-video">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-4 "><iframe width=100% height="260" src="https://www.youtube.com/embed/EketHuXJ3_c" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+                <div class="col-sm-4 "><iframe width="100%" height="260" src="https://www.youtube.com/embed/EketHuXJ3_c" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
                                 picture-in-picture" allowfullscreen></iframe></div>
 
-                <div class="col-sm-4"><iframe width=100% height="260" src="https://www.youtube.com/embed/8p1J7ZY-CyY" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+                <div class="col-sm-4"><iframe width="100%" height="260" src="https://www.youtube.com/embed/8p1J7ZY-CyY" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
                                 picture-in-picture" allowfullscreen></iframe></div>
             </div>
             <div class="row">
@@ -250,31 +259,55 @@
 
 
         <!--ABOUT VENUE MUSIC TICKETS-->
+        
         <section id="tickets">
-            <div>
-                <p></p>
-            </div>
-            
-            <div class="container-fluid venue-container" id="music-lineup-heading">
-                <h1 class="text-uppercase text-center venue-header">MUSIC LINE UP 2019</h1>
-                <h3 class="text-uppercase text-center venue-header">Friday June 21st</h3>
-                <h2 class="text-uppercase text-center">6pm DJ SCOTT // 8pm <a href="https://www.arminvanbuuren.com/biography/" target="_blank" class="concert-links"> Armin Van Buuren </a></h2>
-                <h1 style="text-align:center;white-space:pre-wrap;">&nbsp; </h1>
-                <h3 class="text-uppercase text-center">Saturday June 22nd</h3>
-                <h2 class="text-uppercase text-center">7pm <a href="https://www.cranberries.com/music" target="_blank" class="concert-links">The Cranberries</a></h2>
-                <hr>
-                <h1 class="text-uppercase text-center">tickets&tokens</h1>
-                <p class="text-center">GENERAL ADMISSION:</p>
-                <p class="text-center">Entry at the door is €15.00.<br>Early Bird: SAVE 15% - buy till 26th of May.
-                    <br>Save 25% - buy 2 tickets now for €20 (including booking fee) </p>
-                <p class="text-center">Tokens are €4.</p>
-                <div class="col-sm-12 text-center">
-                    <button type="button" class="btn buy-button center-block" id="buy-button" data-toggle="modal" data-target="#buyTicket">BUY TICKET</button>
-                </div>
-
-                <p class="text-center">Group rates available for 20 or more - Contact: tomaszcygal@yahoo.com.</p>
-            </div>
+            <div class="container-fluid venue-container"
+                    id="music-lineup-heading">
+                <div class="venue-wrapper">
+                    <h1 class="text-uppercase text-center venue-header">
+                        MUSIC LINE UP 2019
+                    </h1>
+                    <h3 class="text-uppercase text-center venue-header">
+                        Friday June 21st
+                    </h3>
+                    <h2 class="text-uppercase text-center">6pm DJ SCOTT // 8pm 
+                        <a href="https://www.arminvanbuuren.com/biography/" 
+                            target="_blank" class="concert-links"> Armin Van Buuren 
+                        </a>
+                    </h2>
+                    <h1 style="text-align:center;white-space:pre-wrap;">&nbsp; </h1>
+                    <h3 class="text-uppercase text-center">Saturday June 22nd</h3>
+                    <h2 class="text-uppercase text-center">7pm 
+                        <a href="https://www.cranberries.com/music" target="_blank" 
+                            class="concert-links">The Cranberries
+                        </a>
+                    </h2>
+                    <hr>
+                    <h1 class="text-uppercase text-center">tickets&tokens</h1>
+                    <p class="text-center">GENERAL ADMISSION:</p>
+                    <p class="text-center">Entry at the door is €15.00.<br>
+                    Early Bird: SAVE 15% - buy till 26th of May.
+                        <br>Save 25% - buy 2 tickets now for €20 (
+                        including booking fee) </p>
+                    <p class="text-center">Tokens are €4.</p>
+                    </div>
+                
+                    <div class="col-sm-12 text-center">
+                        <button type="button" class="btn buy-button center-block" 
+                        id="buy-button" data-toggle="modal" data-target="#buyTicket">
+                            BUY TICKET</button>
+                    </div>
+                    
+                
+    
+                    <p class="text-center">Group rates available for 20 or more - 
+                        Contact: tomaszcygal@yahoo.com.
+                    </p>
+                    </div>
+                    
+                
         </section>
+        
         <hr>
 
         <!--END ABOUT VENUE MUSIC TICKETS-->
@@ -286,19 +319,30 @@
 
         <section id="phone">
             <div>
-                <h1 class="text-center sponsors-header d-none d-lg-block">INTERESTED IN PARTNERSHIP?</h1>
+                <h1 class="text-center sponsors-header d-none d-lg-block">
+                    INTERESTED IN PARTNERSHIP?
+                </h1>
             </div>
             <div class="row partnership-row">
                 <div class="col-sm-4 partner-jpg d-none d-lg-block">
-                    <img src="images/glass-beer.jpg" alt="glass-beer" class="partner-jpg">
+                    <img src="images/glass-beer.jpg" alt="glass-beer" 
+                    class="partner-jpg">
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-8">
                     <h3 class="partnership-heading">
-                        Let’s Host A Beer Festival Together! We create and promote successful beer tasting festivals in the Ireland. By following our own unique model called “BrewFest Success™,” we combine our knowledge of craft beer market trends with nearly 12years of event
-                        ideation and management experience to create exciting, fun and profitable events.”
+                        Let’s Host A Beer Festival Together! We create and 
+                        promote successful beer tasting festivals in the Ireland.
+                        By following our own unique model called “BrewFest 
+                        Success™,” we combine our knowledge of craft beer 
+                        market trends with nearly 12years of event
+                        ideation and management experience to create exciting, 
+                        fun and profitable events.”
                     </h3>
                     <div class="col-sm-12 text-center">
-                        <button type="button" class="btn buy-button center-block" id="contact-button" data-toggle="modal" data-target="#contact">CONTACT</button>
+                        <button type="button" class="btn buy-button center-block"
+                            id="contact-button" data-toggle="modal" data-target="#contact">
+                            CONTACT
+                        </button>
                     </div>
 
 
@@ -310,22 +354,41 @@
 
         <!--Feedback section-->
         
-        <h2 class="text-uppercase text-center d-none d-lg-block">our happy festival guests say:</h2>
+        <h2 class="text-uppercase text-center d-none d-lg-block">our happy 
+            festival guests say:
+        </h2>
         <section class="d-none d-lg-block" id="quotes">
+            <div class="feedback-wrapper">
             <div class="row face-row">
+                
                 <div class="col-md-6">
                     <div class="media">
                         <div>
-                            <img src="images/face2.jpg" alt="face2" class="rounded-circle mr-3" height=90 width=90>
+                            <img src="images/face2.jpg" alt="face2" 
+                            class="rounded-circle mr-3" height=90 width=90>
                         </div>
+                        
                         <div class="media-body">
+                            
                             <blockquote class="blockquote">
-                                <p> Fantastic venue WOOOW. We had so much fun and great beer. <i class="fas fa-thumbs-up"></i> Thank You.</p>
-                                <footer class="blockquote-footer">Bob Conor on <cite title="Twitter">Snapchap</cite></footer>
+                                
+                                <p class="feedback-paragraph"> Fantastic venue WOOOW. We had so much fun 
+                                    and great beer. 
+                                    <i class="fas fa-thumbs-up">
+                                    </i> Thank You.
+                                </p>
+                                
+                                <footer class="blockquote-footer">
+                                    Bob Conor on <cite title="Twitter">
+                                        Snapchap</cite></footer>
+                                        
                             </blockquote>
+                            
                         </div>
                     </div>
+                    
                 </div>
+                
                 <div class="col-md-6">
                     <div class="media">
                         <div>
@@ -333,7 +396,7 @@
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>Amazing time, amazing people, amazing selection of craft beers.<i class="fas fa-thumbs-up"> Thanks</i></p>
+                                <p class="feedback-paragraph">Amazing time, amazing people, amazing selection of craft beers.<i class="fas fa-thumbs-up"> Thanks</i></p>
                                 <footer class="blockquote-footer">Micheal Owen on <cite title="Google">Instagram</cite></footer>
                             </blockquote>
                         </div>
@@ -349,8 +412,13 @@
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>It's a MUST for beer lovers. Can't miss it. <i class="fas fa-thumbs-up"></i> Thank You.</p>
-                                <footer class="blockquote-footer">Joe Martin on <cite title="Twitter">Twitter</cite></footer>
+                                <p class="feedback-paragraph">It's a MUST for beer 
+                                    lovers. Can't miss it. <i class="fas fa-thumbs-up">
+                                    </i> Thank You.
+                                </p>
+                                <footer class="blockquote-footer">Joe Martin on 
+                                    <cite title="Twitter">Twitter</cite>
+                                </footer>
                             </blockquote>
                         </div>
                     </div>
@@ -362,13 +430,17 @@
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
-                                <p>A big thanks to organizers. Well done, you know how to make great venue.<i class="fas fa-thumbs-up"> Thanks</i></p>
+                                <p class="feedback-paragraph">A big thanks to organizers. 
+                                    Well done, you know how to make great venue.<i class="fas fa-thumbs-up"> Thanks</i>
+                                </p>
                                 <footer class="blockquote-footer">Lukas Simko on <cite title="Google">Google</cite></footer>
                             </blockquote>
                         </div>
                     </div>
                 </div>
             </div>
+            </div>
+            
         </section>
         <!--END of Feedback section-->
 
@@ -558,7 +630,7 @@
                                     <img src="images/contact.jpg" style="width:100%" alt=contact>
                                 </div>
                                 <div class="column">
-                                    <form action="/action_page.php">
+                                    <form>
                                         <label for="fname">First Name</label>
                                         <input type="text" id="fname" name="firstname" placeholder="Your name..">
                                         <label for="lname">Last Name</label>
