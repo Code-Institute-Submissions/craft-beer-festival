@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
+        <link rel="stylesheet" href="main.css" type="text/css" />
         <title>Craft Beer Festival</title>
     </head>
 
@@ -36,8 +36,11 @@
                     </li>
 
                     <li class="nav-item">
+                        <a class="nav-link" href="https://www.google.com/maps/place/Marlay+Park/@53.2732882,-6.2710537,17z/data=!3m1!4b1!4m5!3m4!1s0x48670bcc2f44739d:0x7aba0b0e84d6b979!8m2!3d53.273285!4d-6.268865" target="_blank">Where?</a>
+
+                        <li class="nav-item">
                             <a class="nav-link" href="#phone">Contact</a>
-                    </li>
+                        </li>
                 </ul>
                 <!-- REQUEST WIN BUTTON -->
                 <button class="btn btn-success text-uppercase ml-md-3 d-none d-lg-block " data-toggle="modal" data-target="#winticketModal">Win Ticket</button>
@@ -47,7 +50,7 @@
         <!-- The video -->
         <div class="d-none d-lg-block">
             <video autoplay muted loop id="myVideo">
-					<source src="assets/video/man.mp4" type="video/mp4">
+					<source src="video/man.mp4" type="video/mp4">
 				</video>
         </div>
 
@@ -93,20 +96,19 @@
         <!--Section-->
         <section id="about">
             
-            <div class="row callout-row d-lg-block">
+            <div class="row callout-row hidden-md-down">
                 <div class="col-sm-12 advert-row">
                     <div class="paragraph-wrapper container-fluid">
-                    <h2 class="section-header text-center ">
+                    <h2 class="section-header text-center d-none d-lg-block">
                         YOUR FAVOURITE IRISH CRAFT BEER FESTIVAL IS BACK BUT..... 
                     </h2>
                     
-                        <p class="callout-paragraph text-center hidden-md-down"> 
-                            A Little Bit Different Than Before International 
+                        <p class="callout-paragraph text-center"> A Little Bit Different Than Before International 
                             Stars Mixed<br> With Local Heroes Bringing Festival 
                             To DUBLIN For The First<br> Festival Of THE SEASON 2019.<br> 
                             21st & 22nd June 2019 @ MARLAY PARK. Festival is open from <br>
-                                4pm-11pm on Friday and <br>from 2pm-11.30pm on Saturday
-                                br> Last entry 9pm each night!
+                            4pm-11pm on Friday and <br>from 2pm-11.30pm on Saturday
+                            br> Last entry 9pm each night!
                         </p>
                     </div>
             </div>
@@ -149,7 +151,7 @@
             <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-1">
-                    <a href="http://www.dingledistillery.ie/" target="_blank"><img src="assets/images/dingle.png" class="d-block img-participants" alt="dingle" > </a>
+                    <a href="http://www.dingledistillery.ie/" target="_blank"><img src="images/dingle.png" class="d-block img-participants" alt="dingle" > </a>
 
                 </div>
                 <div class="col-sm-1">
@@ -189,31 +191,29 @@
         <!--GALLERY SECTION-->
 
         <section class="gallery-section" id="gallery">
-            <div class="gallery-opacity">
             <p class="gallery-heading text-center">GALLERY</p>
 
             <div class="row justify-content-center gallery-row">
                 <div class="col-sm-4">
-                    <img src="assets/images/beer-festival.jpg" class="d-block img-gallery" alt="beer-festival">
+                    <img src="images/beer-festival.jpg" class="d-block img-gallery" alt="beer-festival">
                 </div>
                 <div class="col-sm-4">
-                    <img src="assets/images/tap.jpg" class="d-block img-gallery" alt="tap">
+                    <img src="images/tap.jpg" class="d-block img-gallery" alt="tap">
                 </div>
                 <div class="col-sm-4">
-                    <img src="assets/images/men-drinking1.jpg" class="d-block img-gallery" alt="men-drinking1">
+                    <img src="images/men-drinking1.jpg" class="d-block img-gallery" alt="men-drinking1">
                 </div>
             </div>
             <div class="row gallery-row">
                 <div class="col-sm-4">
-                    <img src="assets/images/friends.jpg" class="d-block img-gallery" alt="friends">
+                    <img src="images/friends.jpg" class="d-block img-gallery" alt="friends">
                 </div>
                 <div class="col-sm-4">
-                    <img src="assets/images/cheers.jpg" class="d-block img-gallery" alt="cheers">
+                    <img src="images/cheers.jpg" class="d-block img-gallery" alt="cheers">
                 </div>
                 <div class="col-sm-4">
-                    <img src="assets/images/smoke.jpg" class="d-block img-gallery" alt="smoke">
+                    <img src="images/smoke.jpg" class="d-block img-gallery" alt="smoke">
                 </div>
-            </div>
             </div>
         </section>
 
@@ -229,22 +229,22 @@
             </div>
             <div class="row row1-video">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-4 "><iframe width= "100%" height="260" src="https://www.youtube.com/embed/EketHuXJ3_c" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
-                                picture-in-picture" allowfullscreen class="video-promo1"></iframe></div>
+                <div class="col-sm-4 "><iframe width="100%" height="260" src="https://www.youtube.com/embed/EketHuXJ3_c" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+                                picture-in-picture" allowfullscreen></iframe></div>
 
-                <div class="col-sm-4"><iframe width= "100%" height="260"src="https://www.youtube.com/embed/8p1J7ZY-CyY" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
-                                picture-in-picture" allowfullscreen class="video-promo1"></iframe></div>
+                <div class="col-sm-4"><iframe width="100%" height="260" src="https://www.youtube.com/embed/8p1J7ZY-CyY" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+                                picture-in-picture" allowfullscreen></iframe></div>
             </div>
-            <div class="row row2-video">
+            <div class="row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-4">
-                    <video width= "100%" controls class="video-promo2">
-                         <source  src="assets/video/steak1.mp4" type="video/mp4">
+                    <video width=100% controls>
+                         <source src="video/steak1.mp4" type="video/mp4">
                    </video>
                 </div>
                 <div class="col-sm-4">
-                    <video width= "100%" controls class="video-promo2">
-                         <source  src="assets/video/steak2.mp4" type="video/mp4">
+                    <video width=100% controls>
+                         <source src="video/steak2.mp4" type="video/mp4">
                     </video>
                 </div>
 
@@ -283,10 +283,7 @@
                         </a>
                     </h2>
                     <hr>
-                    <h1 class="text-uppercase text-center">tickets tokens location</h1>
-                    <a href=https://www.google.com/maps/place/Marlay+Park/@53.2714853,-6.2693477,15z/data!4m5!3m4!1s0x48670bcc2f44739d:0x7aba0b0e84d6b979!8m2!3d53.273285!4d-6.268865 target="_blank" class="concert-location">
-                        VIEW LOCATION
-                    </a>
+                    <h1 class="text-uppercase text-center">tickets&tokens</h1>
                     <p class="text-center">GENERAL ADMISSION:</p>
                     <p class="text-center">Entry at the door is €15.00.<br>
                     Early Bird: SAVE 15% - buy till 26th of May.
@@ -322,13 +319,13 @@
 
         <section id="phone">
             <div>
-                <h1 class="text-center partnership-header d-none d-lg-block">
+                <h1 class="text-center sponsors-header d-none d-lg-block">
                     INTERESTED IN PARTNERSHIP?
                 </h1>
             </div>
             <div class="row partnership-row">
                 <div class="col-sm-4 partner-jpg d-none d-lg-block">
-                    <img src="assets/images/glass-beer.jpg" alt="glass-beer" 
+                    <img src="images/glass-beer.jpg" alt="glass-beer" 
                     class="partner-jpg">
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-8">
@@ -367,7 +364,7 @@
                 <div class="col-md-6">
                     <div class="media">
                         <div>
-                            <img src="assets/images/face2.jpg" alt="face2" 
+                            <img src="images/face2.jpg" alt="face2" 
                             class="rounded-circle mr-3" height=90 width=90>
                         </div>
                         
@@ -395,7 +392,7 @@
                 <div class="col-md-6">
                     <div class="media">
                         <div>
-                            <img src="assets/images/face1.jpg" alt="face1" class="rounded-circle mr-3" height=90 width=90>
+                            <img src="images/face1.jpg" alt="face1" class="rounded-circle mr-3" height=90 width=90>
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -411,7 +408,7 @@
                 <div class="col-md-6">
                     <div class="media">
                         <div>
-                            <img src="assets/images/face3.jpg" alt="face3" class="rounded-circle mr-3" height=90 width=90>
+                            <img src="images/face3.jpg" alt="face3" class="rounded-circle mr-3" height=90 width=90>
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -429,7 +426,7 @@
                 <div class="col-md-6">
                     <div class="media">
                         <div>
-                            <img src="assets/images/face4.jpg" alt="face4" class="rounded-circle mr-3" height=90 width=90>
+                            <img src="images/face4.jpg" alt="face4" class="rounded-circle mr-3" height=90 width=90>
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -456,23 +453,23 @@
             <div class="row sponsors-row">
                 <div class="col-sm-2">
 
-                    <img src="assets/images/beer-sponsor.jpg" alt="beer-sponsor" class="sponor-logo">
+                    <img src="images/beer-sponsor.jpg" alt="beer-sponsor" class="sponor-logo">
                 </div>
                 <div class="col-sm-2">
 
-                    <img src="assets/images/dragon.png" alt="dragon" class="sponor-logo">
+                    <img src="images/dragon.png" alt="dragon" class="sponor-logo">
                 </div>
                 <div class="col-sm-2">
-                    <img src="assets/images/fb.png" alt="fb" class="sponor-logo">
+                    <img src="images/fb.png" alt="fb" class="sponor-logo">
                 </div>
                 <div class="col-sm-2">
-                    <img src="assets/images/google.png" alt="google" class="sponor-logo">
+                    <img src="images/google.png" alt="google" class="sponor-logo">
                 </div>
                 <div class="col-sm-2">
-                    <img src="assets/images/hr.jpg" alt="hr" class="sponor-logo">
+                    <img src="images/hr.jpg" alt="hr" class="sponor-logo">
                 </div>
                 <div class="col-sm-2">
-                    <img src="assets/images/rest-logo.png" alt="rest-logo" class="sponor-logo">
+                    <img src="images/rest-logo.png" alt="rest-logo" class="sponor-logo">
                 </div>
             </div>
         </section>
@@ -669,7 +666,7 @@
             <div id="footer-details" class="footer-row">
                 <div class="col-sm-4 copyright">
                     <h5></h5>
-                    <p class="inline-block footer-copyright">
+                    <p class="inline-block">
                         Copyright,Irish Craft Beer Festival,2019.
                     </p>
                 </div>
