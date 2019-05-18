@@ -58,7 +58,7 @@ nav {
     padding-top: 5px;
     padding-left: 0;
     padding-right: 0;
-    background-image: url("assets/images/two-bottles.jpg" );
+    background-image: url("../images/two-bottles.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -107,6 +107,10 @@ nav {
     background-repeat: no-repeat;
     font-size: xx-large;
     font-weight: bold;
+}
+
+.gallery-section {
+    background-image: url("../images/poppies.jpg");
 }
 
 .heading-row {
@@ -176,15 +180,6 @@ section {
     width: 100%;
 }
 
-/*.video-promo1 {*/
-/*    width: 75%;*/
-/*    height: 150%*/
-/*}*/
-
-/*.video-promo2 {*/
-/*    width: 75%;*/
-/*    height: 100%;*/
-/*}*/
 
 
 .section-youtube {
@@ -336,8 +331,8 @@ section {
 
 .text-mobile {
     text-align: center;
-    background-color: #f7e3543d;
-    margin-top: 25px;
+    margin-top: 0px;
+    background-color: #0000006e;
 }
 
 .add-container {
@@ -350,7 +345,7 @@ section {
 
 #quotes {
     width: 100%;
-    background-image: url("assets/images/feedback.jpg");
+    background-image: url("../images/feedback.jpg");
     padding-left: 0px;
 }
 
@@ -393,7 +388,7 @@ section {
 /*REASONS-CONTAINER*/
 
 .reasons-container {
-    background-image: url("assets/images/art-beer.jpg");
+    background-image: url("../images/art-beer.jpg");
     color: white;
 }
 
@@ -499,7 +494,7 @@ hr {
     background-color: #f1e589;
     padding-top: 4%;
     margin-top: 60px;
-    background-image: url("//images/venue.jpg");
+    background-image: url("../images/venue.jpg");
     color: white;
     background-position: 0%;
 }
@@ -554,7 +549,7 @@ hr {
 /*------------ IMAGES ------------*/
 
 .beer-image-gallery {
-    background-image: url("images/bbq.jpg");
+    background-image: url("../images/bbq.jpg");
     background-position: center 35%;
 }
 
@@ -693,3 +688,7 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
+
+
+
+
