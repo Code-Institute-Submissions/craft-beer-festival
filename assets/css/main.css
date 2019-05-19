@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color: #f5f5dc;
 }
 
 /*NAVBAR*/
@@ -9,7 +9,7 @@ nav {
 }
 
 .nav-link {
-    color: black;
+    color: #000000;
     font-weight: 500;
 }
 
@@ -18,7 +18,7 @@ nav {
 }
 
 .navbar-light a {
-    color: black;
+    color: #000000;
 }
 
 .navbar-light a:hover {
@@ -32,7 +32,7 @@ nav {
 }
 
 .callout-paragraph {
-    color: white;
+    color: #ffffff;
     margin-bottom: 50px;
 }
 
@@ -40,12 +40,12 @@ nav {
 /*LINKS*/
 
 .concert-links {
-    color: lightblue;
+    color: #add8e6;
     text-decoration: none;
 }
 
 .concert-links:hover {
-    color: white;
+    color: #ffffff;
 }
 
 .text-reasons {
@@ -78,7 +78,7 @@ nav {
 }
 
 .venue-header {
-    color: white;
+    color: #ffffff;
 }
 
 .section-header {
@@ -91,7 +91,7 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 40px;
-    color: white;
+    color: #ffffff;
 }
 
 .reasons-header {
@@ -120,7 +120,7 @@ nav {
 }
 
 .heading-row {
-    background-color: beige;
+    background-color: #f5f5dc;
 
 }
 
@@ -134,7 +134,7 @@ nav {
 
 ul {
     list-style-type: none;
-    color: white;
+    color: #ffffff;
 }
 
 /* section*/
@@ -198,7 +198,7 @@ section {
 }
 
 .advert-row {
-    background-color: black;
+    background-color: #000000;
     background: #00000061;
 }
 
@@ -220,11 +220,11 @@ section {
 
 #myBtn:hover {
     background: #ddd;
-    color: black;
+    color: #000000;
 }
 
 .btn-success {
-    background-color: green;
+    background-color: #008000;
 }
 
 .btn-success:hover {
@@ -234,8 +234,8 @@ section {
 #buy-button {
     width: 160px;
     height: 70px;
-    background-color: green;
-    color: white;
+    background-color: #008000;
+    color: #ffffff;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
@@ -247,8 +247,8 @@ section {
 #contact-button {
     width: 160px;
     height: 70px;
-    background-color: green;
-    color: white;
+    background-color: #008000;
+    color: #ffffff;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     margin-top: 40px;
 }
@@ -258,7 +258,7 @@ section {
 /*GALLERY*/
 
 .gallery-opacity {
-    background-color: black;
+    background-color: #000000;
     background: #00000061;
 }
 
@@ -363,12 +363,12 @@ section {
 }
 
 .feedback-wrapper {
-    background-color: black;
+    background-color: #000000;
     background: #00000061;
 }
 
 .feedback-paragraph {
-    color: whitesmoke;
+    color: #f5f5f5;
 }
 
 
@@ -380,7 +380,7 @@ section {
 .blockquote {
     margin-bottom: 1rem;
     font-size: 1.25rem;
-    color: black;
+    color: #000000;
     font-weight: bolder;
     font-size: x-large;
 }
@@ -397,11 +397,11 @@ section {
 
 .reasons-container {
     background-image: url("../images/art-beer.jpg");
-    color: white;
+    color: #ffffff;
 }
 
 #reason-text {
-    color: white;
+    color: #ffffff;
     margin-bottom: 40px;
     word-break: break-all;
     padding-right: 3%;
@@ -415,7 +415,7 @@ section {
 }
 
 .reasons-container ul {
-    color: white;
+    color: #ffffff;
 }
 
 .reasons-header {
@@ -482,6 +482,7 @@ hr {
     text-align: center;
     font-size: 22pt;
     font-weight: bolder;
+    padding-top: 40px;
 
 }
 
@@ -503,24 +504,20 @@ hr {
     padding-top: 4%;
     margin-top: 60px;
     background-image: url("../images/venue.jpg");
-    color: white;
+    color: #ffffff;
     background-position: 0%;
 }
 
 .venue-wrapper {
-    background-color: black;
-
+    background-color: #000000;
     background: #00000061;
 }
 
 .concert-location {
-    color: lightblue;
+    color: #add8e6;
     text-decoration: none;
     text-align: center;
-    /*margin-left: 360px;*/
-    /*padding-left: 210px;*/
-    
-}
+    }
 
 
 
@@ -622,11 +619,11 @@ label {
 }
 
 a {
-    color: darkblue;
+    color: #00008b;
 }
 
 hr {
-    border: 1px solid lightgrey;
+    border: 1px #d3d3d3;
 }
 
 span.price {
@@ -654,7 +651,7 @@ textarea {
 
 input[type=submit] {
     background-color: #4CAF50;
-    color: white;
+    color: #ffffff;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
