@@ -178,6 +178,10 @@ section {
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+.video-promo1{
+    width: 100%;
+    height:260px;
+}
 
 
 
@@ -421,7 +425,9 @@ section {
 .reasons-header {
     text-align: center;
     font-size: xx-large;
-
+}
+.view-location{
+    text-align: center;
 }
 
 hr {
@@ -464,11 +470,7 @@ hr {
 
 
 
-/*.partnership-heading {*/
 
-/*    text-align: center;*/
-
-/*}*/
 
 /*------------ HEADER ------------*/
 
