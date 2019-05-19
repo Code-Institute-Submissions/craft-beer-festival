@@ -94,8 +94,7 @@ The zoom in image for large screens enables viewer  to see closer look without o
 
 #### Video
 The Video section is laid out in 2 rows of 2 columns for large and medium screens 
-and 1 column wide for mobile devices. When validating this section via W3 Validator 4 errors
-show up due to using % when describing width. I tried in CSS and bootstrap to edit,without success. Other then that no Errors.
+and 1 column wide for mobile devices.
 
 #### Craft Beer 2019
 In this section you will find a pure essence of the actual  event. You will find out about the music line up,
