@@ -33,8 +33,7 @@ nav {
 
 .callout-paragraph {
     color: #ffffff;
-    margin-bottom: 50px;
-}
+    }
 
 
 /*LINKS*/
@@ -142,16 +141,19 @@ ul {
 section {
     margin-bottom: 50px;
 }
+.scroll-paragraph{
+    color: #000000;
+    font-weight: 700;
+}
 
 /* audio*/
 
 .audio-content {
-    position: relative;
+    position: absolute;
     bottom: 0;
-    background: rgb(245, 245, 220);
+    background: rgba(245, 245, 220, 0.62);
     color: #f1f1f1;
     width: 100%;
-    padding-bottom: 20px;
     text-align: center;
     z-index: 1;
 }
